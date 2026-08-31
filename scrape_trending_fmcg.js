@@ -1,17 +1,15 @@
 /**
  * Daily Automated Multi-Niche & Festival Trending Scraper & Catalog Builder
  * Features:
- * - Google Gemini 1.5 Flash AI Integration (Generates date-based festival items dynamically)
- * - Safe Offline/Fallback Catalog for all 7 Store Niches
- * - Zero Hardcoded Prices on Cards
- * - Full Brand Distributor Contact, Address & Wholesale Notes
+ * - Google Gemini 1.5 Flash AI Integration
+ * - Multi-Niche & Festival Recommendations for Indian Retailers
  */
 
 const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
-// Curated Master Brand Launches (Admin Promoted with Contact & Wholesale Notes)
+// Curated Master Brand Launches
 const PROMOTED_BRANDS_LIST = [
   {
     id: 'fest-amul-ghee',
@@ -114,7 +112,6 @@ const PROMOTED_BRANDS_LIST = [
   }
 ];
 
-// Baseline Verified Multi-Niche Catalog
 const BASELINE_TRENDING_ITEMS = [
   { id: 'fest-dryfruits-pack', name: 'Nutraj Royal Dry Fruits Gift Box (Cashews, Almonds, Pistachios, Raisins 500g)', brand: 'Nutraj', category: 'Grocery & Essentials', niche: 'Grocery & Essentials', unit: 'Box', festivalTags: ['DIWALI', 'GANESH_CHATURTHI', 'HOLI', 'SANKRANTI', 'FESTIVE_GIFTS'], source: 'Amazon Festive Bestseller', image: 'https://images.unsplash.com/photo-1585994192701-f1a505c8574a?w=300&q=80', stockCountHint: 'Festive Bestseller' },
   { id: 'fest-modak-mix', name: 'MTR Ready Modak & Sweet Rice Flour Mix 500g', brand: 'MTR', category: 'Grocery & Essentials', niche: 'Grocery & Essentials', unit: 'Pkt', festivalTags: ['GANESH_CHATURTHI', 'FESTIVE_SWEETS'], source: 'Flipkart Festive', image: 'https://images.unsplash.com/photo-1601050690597-df0568f70950?w=300&q=80', stockCountHint: 'Ganesh Festival Peak' },
@@ -131,9 +128,6 @@ const BASELINE_TRENDING_ITEMS = [
   { id: 'bake-b1', name: 'Britannia 100% Whole Wheat Fresh Bread 400g', brand: 'Britannia', category: 'Bakery & Confectionery', niche: 'Bakery & Confectionery', unit: 'Pkt', source: 'Amazon Fresh', image: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?w=200&q=80', stockCountHint: 'Daily Fresh Supply' }
 ];
 
-/**
- * Optional Google Gemini AI Dynamic Generator
- */
 async function fetchGeminiRecommendations(apiKey) {
   if (!apiKey) return null;
 
@@ -161,7 +155,7 @@ Format each object with keys:
 - image: string (valid unsplash product photo URL)
 - stockCountHint: string (e.g. "#1 Festive Pick", "High Demand")
 
-Return ONLY raw valid JSON without markdown wrapping.`;
+Return ONLY raw valid JSON array without markdown wrapping.`;
 
   return new Promise((resolve) => {
     const postData = JSON.stringify({
@@ -190,7 +184,7 @@ Return ONLY raw valid JSON without markdown wrapping.`;
           if (text) {
             const items = JSON.parse(text);
             if (Array.isArray(items) && items.length > 0) {
-              console.log(`🤖 Gemini AI generated ${items.length} dynamic festival products!`);
+              console.log(`🤖 Gemini AI successfully generated ${items.length} dynamic festival products!`);
               resolve(items);
               return;
             }
@@ -221,11 +215,16 @@ async function generateTrendingFeed() {
   if (apiKey) {
     console.log('🔑 GEMINI_API_KEY detected. Requesting live AI festival suggestions...');
     dynamicItems = await fetchGeminiRecommendations(apiKey);
+  } else {
+    console.log('ℹ️ No GEMINI_API_KEY detected. Using verified multi-niche catalog.');
   }
 
   const trendingItems = (dynamicItems && dynamicItems.length > 0) ? dynamicItems : BASELINE_TRENDING_ITEMS;
   const combinedCatalog = [...PROMOTED_BRANDS_LIST, ...trendingItems];
-  const outputPath = path.join(__dirname, '..', 'trending_fmcg.json');
+  
+  const outputPath = fs.existsSync(path.join(__dirname, 'trending_fmcg.json')) 
+    ? path.join(__dirname, 'trending_fmcg.json')
+    : path.join(__dirname, '..', 'trending_fmcg.json');
 
   fs.writeFileSync(outputPath, JSON.stringify(combinedCatalog, null, 2), 'utf-8');
   console.log(`✅ Successfully generated ${combinedCatalog.length} products to ${outputPath}`);
