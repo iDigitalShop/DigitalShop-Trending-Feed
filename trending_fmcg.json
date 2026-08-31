@@ -6,7 +6,14 @@
     "category": "Dairy & Bakery",
     "niche": "Grocery & Essentials",
     "unit": "Tin",
-    "festivalTags": ["DIWALI", "GANESH_CHATURTHI", "HOLI", "SANKRANTI", "POOJA", "FESTIVE_SWEETS"],
+    "festivalTags": [
+      "DIWALI",
+      "GANESH_CHATURTHI",
+      "HOLI",
+      "SANKRANTI",
+      "POOJA",
+      "FESTIVE_SWEETS"
+    ],
     "isPromoted": true,
     "promoBadge": "🪔 Festival Essential",
     "source": "Brand Direct",
@@ -23,7 +30,13 @@
     "category": "Snacks & Beverages",
     "niche": "Toys & Gift Items",
     "unit": "Box",
-    "festivalTags": ["DIWALI", "RAKSHA_BANDHAN", "GANESH_CHATURTHI", "CHRISTMAS", "FESTIVE_GIFTS"],
+    "festivalTags": [
+      "DIWALI",
+      "RAKSHA_BANDHAN",
+      "GANESH_CHATURTHI",
+      "CHRISTMAS",
+      "FESTIVE_GIFTS"
+    ],
     "isPromoted": true,
     "promoBadge": "🎁 #1 Festive Gift",
     "source": "Brand Direct",
@@ -32,42 +45,6 @@
     "brandAddress": "Mondelez Wholesale Distribution, Mumbai",
     "image": "https://images.unsplash.com/photo-1548907040-4baa42d10919?w=300&q=80",
     "stockCountHint": "High Festive Turnout"
-  },
-  {
-    "id": "fest-dryfruits-pack",
-    "name": "Nutraj Royal Dry Fruits Gift Box (Cashews, Almonds, Pistachios, Raisins 500g)",
-    "brand": "Nutraj",
-    "category": "Grocery & Essentials",
-    "niche": "Grocery & Essentials",
-    "unit": "Box",
-    "festivalTags": ["DIWALI", "GANESH_CHATURTHI", "HOLI", "SANKRANTI", "FESTIVE_GIFTS"],
-    "source": "Amazon Festive Bestseller",
-    "image": "https://images.unsplash.com/photo-1585994192701-f1a505c8574a?w=300&q=80",
-    "stockCountHint": "Festive Bestseller"
-  },
-  {
-    "id": "fest-modak-mix",
-    "name": "MTR Ready Modak & Sweet Rice Flour Mix 500g",
-    "brand": "MTR",
-    "category": "Grocery & Essentials",
-    "niche": "Grocery & Essentials",
-    "unit": "Pkt",
-    "festivalTags": ["GANESH_CHATURTHI", "FESTIVE_SWEETS"],
-    "source": "Flipkart Festive",
-    "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=300&q=80",
-    "stockCountHint": "Ganesh Festival Peak"
-  },
-  {
-    "id": "fest-led-lights",
-    "name": "Decorative Multicolor 50-Meter Waterproof LED Fairy String Lights",
-    "brand": "Syska",
-    "category": "Electrical & Electronics",
-    "niche": "Electrical & Electronics",
-    "unit": "Pcs",
-    "festivalTags": ["DIWALI", "CHRISTMAS", "NEWYEAR"],
-    "source": "Amazon Electricals",
-    "image": "https://images.unsplash.com/photo-1513885535751-8b9238bd345a?w=300&q=80",
-    "stockCountHint": "Diwali & Xmas Fast Seller"
   },
   {
     "id": "promo-amul-protein",
@@ -108,7 +85,12 @@
     "category": "Toys & Gift Items",
     "niche": "Toys & Gift Items",
     "unit": "Box",
-    "festivalTags": ["DIWALI", "RAKSHA_BANDHAN", "CHRISTMAS", "FESTIVE_GIFTS"],
+    "festivalTags": [
+      "DIWALI",
+      "RAKSHA_BANDHAN",
+      "CHRISTMAS",
+      "FESTIVE_GIFTS"
+    ],
     "isPromoted": true,
     "promoBadge": "⭐ Authorized Distributor",
     "source": "Brand Direct",
@@ -133,6 +115,55 @@
     "brandAddress": "Aditya Birla Fashion Wholesale, Bengaluru",
     "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=300&q=80",
     "stockCountHint": "Garment Bestseller"
+  },
+  {
+    "id": "fest-dryfruits-pack",
+    "name": "Nutraj Royal Dry Fruits Gift Box (Cashews, Almonds, Pistachios, Raisins 500g)",
+    "brand": "Nutraj",
+    "category": "Grocery & Essentials",
+    "niche": "Grocery & Essentials",
+    "unit": "Box",
+    "festivalTags": [
+      "DIWALI",
+      "GANESH_CHATURTHI",
+      "HOLI",
+      "SANKRANTI",
+      "FESTIVE_GIFTS"
+    ],
+    "source": "Amazon Festive Bestseller",
+    "image": "https://images.unsplash.com/photo-1585994192701-f1a505c8574a?w=300&q=80",
+    "stockCountHint": "Festive Bestseller"
+  },
+  {
+    "id": "fest-modak-mix",
+    "name": "MTR Ready Modak & Sweet Rice Flour Mix 500g",
+    "brand": "MTR",
+    "category": "Grocery & Essentials",
+    "niche": "Grocery & Essentials",
+    "unit": "Pkt",
+    "festivalTags": [
+      "GANESH_CHATURTHI",
+      "FESTIVE_SWEETS"
+    ],
+    "source": "Flipkart Festive",
+    "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=300&q=80",
+    "stockCountHint": "Ganesh Festival Peak"
+  },
+  {
+    "id": "fest-led-lights",
+    "name": "Decorative Multicolor 50-Meter Waterproof LED Fairy String Lights",
+    "brand": "Syska",
+    "category": "Electrical & Electronics",
+    "niche": "Electrical & Electronics",
+    "unit": "Pcs",
+    "festivalTags": [
+      "DIWALI",
+      "CHRISTMAS",
+      "NEWYEAR"
+    ],
+    "source": "Amazon Electricals",
+    "image": "https://images.unsplash.com/photo-1513885535751-8b9238bd345a?w=300&q=80",
+    "stockCountHint": "Diwali & Xmas Fast Seller"
   },
   {
     "id": "amz-g1",
@@ -207,7 +238,10 @@
     "category": "General Items",
     "niche": "General Items",
     "unit": "Pkt",
-    "festivalTags": ["SCHOOL", "STATIONERY"],
+    "festivalTags": [
+      "SCHOOL",
+      "STATIONERY"
+    ],
     "source": "Amazon Stationery Bestseller",
     "image": "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=200&q=80",
     "stockCountHint": "#1 Student Notebook"
