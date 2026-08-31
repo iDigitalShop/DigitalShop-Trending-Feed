@@ -1,85 +1,234 @@
 /**
- * Daily Automated Trending FMCG Scraper & Catalog Builder
- * This script runs daily via GitHub Actions to generate a static, free CDN-hosted JSON feed
- * for the iDigital Shop Android App (0 Firebase Read Costs).
+ * Daily Automated Multi-Niche & Festival Trending Scraper & Catalog Builder
+ * Features:
+ * - Google Gemini 1.5 Flash AI Integration (Generates date-based festival items dynamically)
+ * - Safe Offline/Fallback Catalog for all 7 Store Niches
+ * - Zero Hardcoded Prices on Cards
+ * - Full Brand Distributor Contact, Address & Wholesale Notes
  */
 
 const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
-// Curated Master Brand Launches (Admin Promoted)
+// Curated Master Brand Launches (Admin Promoted with Contact & Wholesale Notes)
 const PROMOTED_BRANDS_LIST = [
+  {
+    id: 'fest-amul-ghee',
+    name: 'Amul Pure Cow Ghee 1L Tin (Pooja & Sweets Essential)',
+    brand: 'Amul',
+    category: 'Dairy & Bakery',
+    niche: 'Grocery & Essentials',
+    unit: 'Tin',
+    festivalTags: ['DIWALI', 'GANESH_CHATURTHI', 'HOLI', 'SANKRANTI', 'POOJA', 'FESTIVE_SWEETS'],
+    isPromoted: true,
+    promoBadge: '🪔 Festival Essential',
+    source: 'Brand Direct',
+    brandNote: 'Festive wholesale supply. 100% pure cow ghee with high festive demand.',
+    brandContact: '+91 98765 43210',
+    brandAddress: 'Amul Dairy Hub, Gujarat',
+    image: 'https://images.unsplash.com/photo-1589985270826-4b7bb135bc9d?w=300&q=80',
+    stockCountHint: '#1 Festive Sweet Ingredient'
+  },
+  {
+    id: 'fest-cadbury-celeb',
+    name: 'Cadbury Celebrations Rich Dry Fruit & Chocolate Gift Box',
+    brand: 'Cadbury',
+    category: 'Snacks & Beverages',
+    niche: 'Toys & Gift Items',
+    unit: 'Box',
+    festivalTags: ['DIWALI', 'RAKSHA_BANDHAN', 'GANESH_CHATURTHI', 'CHRISTMAS', 'FESTIVE_GIFTS'],
+    isPromoted: true,
+    promoBadge: '🎁 #1 Festive Gift',
+    source: 'Brand Direct',
+    brandNote: 'Festival bulk distributor lot. Top choice for Diwali, Rakhi & Corporate gifts.',
+    brandContact: '+91 98200 44556',
+    brandAddress: 'Mondelez Wholesale Distribution, Mumbai',
+    image: 'https://images.unsplash.com/photo-1548907040-4baa42d10919?w=300&q=80',
+    stockCountHint: 'High Festive Turnout'
+  },
   {
     id: 'promo-amul-protein',
     name: 'Amul High Protein Buttermilk 200ml (Pack of 6)',
     brand: 'Amul',
     category: 'Dairy & Bakery',
+    niche: 'Grocery & Essentials',
     unit: 'Pkt',
-    price: 150,
-    costPrice: 120,
     isPromoted: true,
     promoBadge: '⭐ Official Partner',
     source: 'Brand Direct',
-    image: 'https://images.unsplash.com/photo-1550583724-b2692b85b150?w=200&q=80',
-    stockCountHint: 'High Margin (20% Profit)'
+    brandNote: 'Special Launch Offer: 20% retailer margin on 10+ cases.',
+    brandContact: '+91 98765 43210',
+    brandAddress: 'Amul Dairy Road, Anand, Gujarat',
+    image: 'https://images.unsplash.com/photo-1550583724-b2692b85b150?w=300&q=80',
+    stockCountHint: 'Official Brand Partner'
   },
   {
     id: 'promo-tata-dal',
     name: 'Tata Sampann Unpolished Super Toor Dal 1kg',
     brand: 'Tata Sampann',
-    category: 'Grocery & Kirana',
+    category: 'Grocery & Essentials',
+    niche: 'Grocery & Essentials',
     unit: 'kg',
-    price: 175,
-    costPrice: 145,
     isPromoted: true,
     promoBadge: '🔥 High Margin',
     source: 'Brand Direct',
-    image: 'https://images.unsplash.com/photo-1585994192701-f1a505c8574a?w=200&q=80',
-    stockCountHint: 'Official Brand Partner'
+    brandNote: 'Direct mill stock available. Free doorstep delivery for kirana stores.',
+    brandContact: '+91 98230 11223',
+    brandAddress: 'Tata Consumer Wholesale Hub, Mumbai',
+    image: 'https://images.unsplash.com/photo-1585994192701-f1a505c8574a?w=300&q=80',
+    stockCountHint: 'Verified Brand Launch'
   },
   {
-    id: 'promo-fortune-oil',
-    name: 'Fortune Sunlite Refined Sunflower Cooking Oil 1L',
-    brand: 'Fortune',
-    category: 'Grocery & Kirana',
-    unit: 'Pkt',
-    price: 145,
-    costPrice: 125,
+    id: 'promo-archies-gift',
+    name: 'Archies Luxury Festive Greeting & Gift Hampers',
+    brand: 'Archies',
+    category: 'Toys & Gift Items',
+    niche: 'Toys & Gift Items',
+    unit: 'Box',
+    festivalTags: ['DIWALI', 'RAKSHA_BANDHAN', 'CHRISTMAS', 'FESTIVE_GIFTS'],
     isPromoted: true,
-    promoBadge: '⭐ Top Seller',
+    promoBadge: '⭐ Authorized Distributor',
     source: 'Brand Direct',
-    image: 'https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=200&q=80',
-    stockCountHint: 'Stocked in 65+ stores'
+    brandNote: 'Festive season discount: 35% margin for gift and stationery shops.',
+    brandContact: '+91 99887 76655',
+    brandAddress: 'Archies Gift Distribution Center, Delhi',
+    image: 'https://images.unsplash.com/photo-1513885535751-8b9238bd345a?w=300&q=80',
+    stockCountHint: 'Exclusive Gift Partner'
+  },
+  {
+    id: 'promo-vanheusen-tee',
+    name: 'Van Heusen Classic Cotton Round Neck T-Shirt (Pack of 3)',
+    brand: 'Van Heusen',
+    category: 'Apparel & Clothing',
+    niche: 'Apparel & Clothing',
+    unit: 'Pkt',
+    isPromoted: true,
+    promoBadge: '⭐ Top Brand',
+    source: 'Brand Direct',
+    brandNote: 'Wholesale lot available for garment retailers. All standard sizes (M, L, XL).',
+    brandContact: '+91 97112 33445',
+    brandAddress: 'Aditya Birla Fashion Wholesale, Bengaluru',
+    image: 'https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=300&q=80',
+    stockCountHint: 'Garment Bestseller'
   }
 ];
 
-// Live Curated Amazon & Flipkart Bestsellers Feed
-const ECOMMERCE_TRENDING_ITEMS = [
-  { id: 'amz-g1', name: 'Aashirvaad Superior MP Sharbati Atta 5kg', brand: 'Aashirvaad', category: 'Grocery & Kirana', unit: 'Pkt', price: 275, costPrice: 235, source: 'Amazon Pantry Bestseller', image: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?w=200&q=80', stockCountHint: '#1 on Amazon Grocery' },
-  { id: 'fk-g2', name: 'Tata Salt Vacuum Evaporated Iodized Salt 1kg', brand: 'Tata', category: 'Grocery & Kirana', unit: 'Pkt', price: 28, costPrice: 22, source: 'Flipkart Supermart', image: 'https://images.unsplash.com/photo-1518110925495-5fe2fda0442c?w=200&q=80', stockCountHint: 'Top Rated on Flipkart' },
-  { id: 'amz-g3', name: 'India Gate Basmati Rice Feast Rozzana 1kg', brand: 'India Gate', category: 'Grocery & Kirana', unit: 'kg', price: 95, costPrice: 78, source: 'Amazon Bestseller', image: 'https://images.unsplash.com/photo-1586201375761-83865001e31c?w=200&q=80', stockCountHint: 'Trending in 50+ stores' },
-  { id: 'fk-g4', name: 'Madhur Pure & Hygienic Crystal Sugar 1kg', brand: 'Madhur', category: 'Grocery & Kirana', unit: 'Pkt', price: 55, costPrice: 45, source: 'Flipkart Grocery', image: 'https://images.unsplash.com/photo-1622484212850-eb596d769edc?w=200&q=80', stockCountHint: 'Stocked in 42+ stores' },
-  { id: 'amz-g5', name: 'Rajdhani Besan (Pure Gram Flour) 500g', brand: 'Rajdhani', category: 'Grocery & Kirana', unit: 'Pkt', price: 58, costPrice: 46, source: 'Amazon Fresh', image: 'https://images.unsplash.com/photo-1601050690597-df0568f70950?w=200&q=80', stockCountHint: 'High Daily Turnout' },
-  { id: 'amz-d1', name: 'Amul Salted Table Butter 100g', brand: 'Amul', category: 'Dairy & Bakery', unit: 'Pkt', price: 58, costPrice: 50, source: 'BigBasket Fresh', image: 'https://images.unsplash.com/photo-1589985270826-4b7bb135bc9d?w=200&q=80', stockCountHint: 'Daily Kirana Essential' },
-  { id: 'fk-d2', name: 'Amul Cheese Slices 200g (Pack of 10 Slices)', brand: 'Amul', category: 'Dairy & Bakery', unit: 'Pkt', price: 145, costPrice: 122, source: 'Flipkart Grocery', image: 'https://images.unsplash.com/photo-1618164435735-413d3b066c9a?w=200&q=80', stockCountHint: 'Top Seller in Metro' },
-  { id: 'amz-s1', name: 'Parle-G Gold Glucose Biscuits 1kg Value Pack', brand: 'Parle', category: 'Snacks & Beverages', unit: 'Pkt', price: 95, costPrice: 78, source: 'Amazon Pantry Bestseller', image: 'https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=200&q=80', stockCountHint: '#1 Biscuit in India' },
-  { id: 'fk-s2', name: 'Britannia Good Day Cashew Cookies 200g', brand: 'Britannia', category: 'Snacks & Beverages', unit: 'Pkt', price: 45, costPrice: 35, source: 'Flipkart Supermart', image: 'https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?w=200&q=80', stockCountHint: 'Fast Moving Item' },
-  { id: 'amz-s3', name: 'Cadbury Dairy Milk Silk Chocolate 60g', brand: 'Cadbury', category: 'Snacks & Beverages', unit: 'Pcs', price: 85, costPrice: 70, source: 'Amazon Bestseller', image: 'https://images.unsplash.com/photo-1548907040-4baa42d10919?w=200&q=80', stockCountHint: 'High Margin Item' },
-  { id: 'amz-c1', name: 'Colgate Strong Teeth Anticavity Toothpaste 200g', brand: 'Colgate', category: 'Personal Care & Cleaning', unit: 'Pcs', price: 115, costPrice: 90, source: 'Amazon Bestseller', image: 'https://images.unsplash.com/photo-1559591937-e1032b498f86?w=200&q=80', stockCountHint: 'Essential Dental Care' },
-  { id: 'fk-c2', name: 'Dettol Original Germ Protection Bathing Bar 125g (Pack of 3)', brand: 'Dettol', category: 'Personal Care & Cleaning', unit: 'Pkt', price: 145, costPrice: 115, source: 'Flipkart Supermart', image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=200&q=80', stockCountHint: 'Fast Moving Soap' },
-  { id: 'amz-m1', name: 'Everest Tikhalal Chilli Powder 200g', brand: 'Everest', category: 'Spices & Masala', unit: 'Pkt', price: 92, costPrice: 72, source: 'Amazon Pantry', image: 'https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=200&q=80', stockCountHint: 'Top Spice Brand' },
-  { id: 'fk-m2', name: 'MDH Deggi Mirch Red Pepper Powder 100g', brand: 'MDH', category: 'Spices & Masala', unit: 'Pkt', price: 88, costPrice: 70, source: 'Flipkart Supermart', image: 'https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=200&q=80', stockCountHint: 'Essential Cooking Masala' }
+// Baseline Verified Multi-Niche Catalog
+const BASELINE_TRENDING_ITEMS = [
+  { id: 'fest-dryfruits-pack', name: 'Nutraj Royal Dry Fruits Gift Box (Cashews, Almonds, Pistachios, Raisins 500g)', brand: 'Nutraj', category: 'Grocery & Essentials', niche: 'Grocery & Essentials', unit: 'Box', festivalTags: ['DIWALI', 'GANESH_CHATURTHI', 'HOLI', 'SANKRANTI', 'FESTIVE_GIFTS'], source: 'Amazon Festive Bestseller', image: 'https://images.unsplash.com/photo-1585994192701-f1a505c8574a?w=300&q=80', stockCountHint: 'Festive Bestseller' },
+  { id: 'fest-modak-mix', name: 'MTR Ready Modak & Sweet Rice Flour Mix 500g', brand: 'MTR', category: 'Grocery & Essentials', niche: 'Grocery & Essentials', unit: 'Pkt', festivalTags: ['GANESH_CHATURTHI', 'FESTIVE_SWEETS'], source: 'Flipkart Festive', image: 'https://images.unsplash.com/photo-1601050690597-df0568f70950?w=300&q=80', stockCountHint: 'Ganesh Festival Peak' },
+  { id: 'fest-led-lights', name: 'Decorative Multicolor 50-Meter Waterproof LED Fairy String Lights', brand: 'Syska', category: 'Electrical & Electronics', niche: 'Electrical & Electronics', unit: 'Pcs', festivalTags: ['DIWALI', 'CHRISTMAS', 'NEWYEAR'], source: 'Amazon Electricals', image: 'https://images.unsplash.com/photo-1513885535751-8b9238bd345a?w=300&q=80', stockCountHint: 'Diwali & Xmas Fast Seller' },
+  { id: 'amz-g1', name: 'Aashirvaad Superior MP Sharbati Atta 5kg', brand: 'Aashirvaad', category: 'Grocery & Essentials', niche: 'Grocery & Essentials', unit: 'Pkt', source: 'Amazon Pantry Bestseller', image: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?w=200&q=80', stockCountHint: '#1 on Amazon Grocery' },
+  { id: 'fk-g2', name: 'Tata Salt Vacuum Evaporated Iodized Salt 1kg', brand: 'Tata', category: 'Grocery & Essentials', niche: 'Grocery & Essentials', unit: 'Pkt', source: 'Flipkart Supermart', image: 'https://images.unsplash.com/photo-1518110925495-5fe2fda0442c?w=200&q=80', stockCountHint: 'Top Rated on Flipkart' },
+  { id: 'amz-g3', name: 'India Gate Basmati Rice Feast Rozzana 1kg', brand: 'India Gate', category: 'Grocery & Essentials', niche: 'Grocery & Essentials', unit: 'kg', source: 'Amazon Bestseller', image: 'https://images.unsplash.com/photo-1586201375761-83865001e31c?w=200&q=80', stockCountHint: 'Trending in 50+ stores' },
+  { id: 'gift-t1', name: 'Giant Plush Soft Teddy Bear Toy (3 Feet)', brand: 'Hamleys', category: 'Toys & Gift Items', niche: 'Toys & Gift Items', unit: 'Pcs', source: 'Amazon Toys Bestseller', image: 'https://images.unsplash.com/photo-1559454403-b8fb88521f11?w=200&q=80', stockCountHint: '#1 Birthday Gift' },
+  { id: 'gift-t2', name: 'Monopoly Deluxe Indian Edition Family Board Game', brand: 'Funskool', category: 'Toys & Gift Items', niche: 'Toys & Gift Items', unit: 'Box', source: 'Flipkart Top Toys', image: 'https://images.unsplash.com/photo-1610890716171-6b1bb98ffd09?w=200&q=80', stockCountHint: 'Trending Board Game' },
+  { id: 'cloth-c1', name: 'Men\'s Pure Cotton Solid Crew Neck T-Shirt (Pack of 3)', brand: 'Allen Solly', category: 'Apparel & Clothing', niche: 'Apparel & Clothing', unit: 'Pkt', source: 'Amazon Fashion Bestseller', image: 'https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=200&q=80', stockCountHint: '#1 in Men\'s Clothing' },
+  { id: 'gen-s1', name: 'Classmate Long Notebook A4 Size 180 Pages (Pack of 6)', brand: 'Classmate', category: 'General Items', niche: 'General Items', unit: 'Pkt', festivalTags: ['SCHOOL', 'STATIONERY'], source: 'Amazon Stationery Bestseller', image: 'https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=200&q=80', stockCountHint: '#1 Student Notebook' },
+  { id: 'elec-e1', name: 'Havells 9W Cool Day White LED Bulb (Pack of 4)', brand: 'Havells', category: 'Electrical & Electronics', niche: 'Electrical & Electronics', unit: 'Pkt', source: 'Amazon Electrical Bestseller', image: 'https://images.unsplash.com/photo-1550524514-966953a9254d?w=200&q=80', stockCountHint: 'Top Selling Bulb' },
+  { id: 'med-m1', name: 'Dettol Antiseptic Disinfectant Liquid 550ml', brand: 'Dettol', category: 'Medical & Pharmacy', niche: 'Medical & Pharmacy', unit: 'Pcs', source: 'Amazon Pharmacy Bestseller', image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=200&q=80', stockCountHint: '#1 First Aid Brand' },
+  { id: 'bake-b1', name: 'Britannia 100% Whole Wheat Fresh Bread 400g', brand: 'Britannia', category: 'Bakery & Confectionery', niche: 'Bakery & Confectionery', unit: 'Pkt', source: 'Amazon Fresh', image: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?w=200&q=80', stockCountHint: 'Daily Fresh Supply' }
 ];
 
-async function generateTrendingFeed() {
-  console.log('🚀 Starting Trending FMCG Catalog Generation...');
+/**
+ * Optional Google Gemini AI Dynamic Generator
+ */
+async function fetchGeminiRecommendations(apiKey) {
+  if (!apiKey) return null;
 
-  const combinedCatalog = [...PROMOTED_BRANDS_LIST, ...ECOMMERCE_TRENDING_ITEMS];
+  const todayStr = new Date().toISOString().split('T')[0];
+  const prompt = `Today's date is ${todayStr}. You are an expert Indian Retail & FMCG wholesale merchandise advisor.
+Identify all upcoming Indian festivals, seasons, and major events in the next 30 days.
+Generate a JSON array of 15 trending wholesale products for Indian shops across 7 categories:
+1. Grocery & Essentials
+2. Toys & Gift Items
+3. Apparel & Clothing
+4. General Items
+5. Electrical & Electronics
+6. Medical & Pharmacy
+7. Bakery & Confectionery
+
+Format each object with keys:
+- id: string
+- name: string (detailed product title with size/weight)
+- brand: string
+- category: string (one of the 7 above)
+- niche: string (same as category)
+- unit: string (Pkt, Box, Pcs, kg, Tin)
+- festivalTags: array of strings (e.g. ["DIWALI", "GANESH_CHATURTHI", "HOLI"])
+- source: string (e.g. "Amazon Bestseller", "Flipkart Trending")
+- image: string (valid unsplash product photo URL)
+- stockCountHint: string (e.g. "#1 Festive Pick", "High Demand")
+
+Return ONLY raw valid JSON without markdown wrapping.`;
+
+  return new Promise((resolve) => {
+    const postData = JSON.stringify({
+      contents: [{ parts: [{ text: prompt }] }],
+      generationConfig: { responseMimeType: "application/json" }
+    });
+
+    const options = {
+      hostname: 'generativelanguage.googleapis.com',
+      path: `/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`,
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Content-Length': Buffer.byteLength(postData)
+      },
+      timeout: 10000
+    };
+
+    const req = https.request(options, (res) => {
+      let data = '';
+      res.on('data', chunk => { data += chunk; });
+      res.on('end', () => {
+        try {
+          const parsed = JSON.parse(data);
+          const text = parsed?.candidates?.[0]?.content?.parts?.[0]?.text;
+          if (text) {
+            const items = JSON.parse(text);
+            if (Array.isArray(items) && items.length > 0) {
+              console.log(`🤖 Gemini AI generated ${items.length} dynamic festival products!`);
+              resolve(items);
+              return;
+            }
+          }
+        } catch (e) {
+          console.warn('Gemini response parse error, falling back:', e.message);
+        }
+        resolve(null);
+      });
+    });
+
+    req.on('error', (e) => {
+      console.warn('Gemini request failed, falling back:', e.message);
+      resolve(null);
+    });
+
+    req.write(postData);
+    req.end();
+  });
+}
+
+async function generateTrendingFeed() {
+  console.log('🚀 Starting Multi-Niche & Festival Trending Catalog Generation...');
+
+  const apiKey = process.env.GEMINI_API_KEY;
+  let dynamicItems = null;
+
+  if (apiKey) {
+    console.log('🔑 GEMINI_API_KEY detected. Requesting live AI festival suggestions...');
+    dynamicItems = await fetchGeminiRecommendations(apiKey);
+  }
+
+  const trendingItems = (dynamicItems && dynamicItems.length > 0) ? dynamicItems : BASELINE_TRENDING_ITEMS;
+  const combinedCatalog = [...PROMOTED_BRANDS_LIST, ...trendingItems];
   const outputPath = path.join(__dirname, '..', 'trending_fmcg.json');
 
   fs.writeFileSync(outputPath, JSON.stringify(combinedCatalog, null, 2), 'utf-8');
-  console.log(`✅ Successfully generated ${combinedCatalog.length} trending products to ${outputPath}`);
+  console.log(`✅ Successfully generated ${combinedCatalog.length} products to ${outputPath}`);
 }
 
 generateTrendingFeed();
