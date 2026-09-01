@@ -31,37 +31,6 @@
       "unit": "kg"
     },
     {
-  "id": "g-0001",
-  "name": "Aashirvaad Sharbati Atta 10kg",
-  "searchKeywords": [
-    "aata",
-    "atta",
-    "gehu ka atta",
-    "aashirvaad atta"
-  ],
-  "brand": "Aashirvaad Mills",
-  "brandContact": "+91 98220 12345",
-  "brandAddress": "MIDC Area, Latur Road, Ambajogai",
-  "brandNote": "Buy 10 Bags, Get 1 Free (18% Retail Margin)",
-  "niche": "Food & Staples",
-  "category": "Flours & Grains",
-  "shopCategories": [
-    "Kirana Shop",
-    "Grocery Shop"
-  ],
-  "pincode": "431517",
-  "isPromoted": true,
-  "image": "https://cdn.jsdelivr.net/gh/assets/catalog/aashirvaad_atta.png",
-  "unit": "kg",
-
-  "showImage": true,
-  "showUnit": false,
-  "showBrand": true,
-  "showDistributorContact": true,
-  "showGoogleMap": true
-},
-    
-    {
       "id": "g-002",
       "name": "Basmati Rice",
       "searchKeywords": [

@@ -1,0 +1,41 @@
+{
+  "config": {
+    "showDistributorContact": true,
+    "showGoogleMap": true,
+    "showBrand": true,
+    "showImage": true,
+    "showUnit": true,
+    "showCategory": true
+  },
+  "promotedItems": [
+    {
+      "id": "promo-ambajogai-flour",
+      "name": "Shree Ganesh Chakki Fresh Atta 30kg Bag",
+      "brand": "Shree Ganesh Mills",
+      "brandContact": "+91 98220 12345",
+      "brandWhatsApp": "919822012345",
+      "brandAddress": "Plot 42, MIDC Industrial Area, Ambajogai, Maharashtra",
+      "brandNote": "Wholesale Offer: Buy 10 Bags, Get 1 Free (18% Retail Margin)",
+      "niche": "Food & Staples",
+      "category": "Flours & Grains",
+      "shopCategories": [
+        "Kirana Shop",
+        "Grocery Shop"
+      ],
+      "pincode": "431517",
+      "targetPincodes": [
+        "431517",
+        "431515"
+      ],
+      "isPromoted": true,
+      "image": "https://cdn.jsdelivr.net/gh/assets/catalog/atta_30kg.png",
+      "unit": "Bag",
+      "searchKeywords": [
+        "chakki atta",
+        "gehu atta",
+        "shree ganesh",
+        "flour"
+      ]
+    }
+  ]
+}
