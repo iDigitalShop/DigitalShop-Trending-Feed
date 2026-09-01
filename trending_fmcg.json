@@ -86,7 +86,7 @@
     "brand": "Store Pack",
     "niche": "Grocery & Essentials",
     "category": "Flours & Grains",
-    "isPromoted": true,
+    "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/sabudana_500g.png"
   },
   {
