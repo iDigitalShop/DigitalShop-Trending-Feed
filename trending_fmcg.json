@@ -6,7 +6,6 @@
     "brand": "Aashirvaad",
     "niche": "Grocery & Essentials",
     "category": "Flours & Grains",
-    "unit": "5 kg",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/atta_5kg.png"
   },
@@ -17,7 +16,6 @@
     "brand": "India Gate",
     "niche": "Grocery & Essentials",
     "category": "Rice & Rice Products",
-    "unit": "5 kg",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/basmati_rice_5kg.png"
   },
@@ -28,7 +26,6 @@
     "brand": "Fortune",
     "niche": "Grocery & Essentials",
     "category": "Rice & Rice Products",
-    "unit": "5 kg",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/sona_masoori_5kg.png"
   },
@@ -39,7 +36,6 @@
     "brand": "Tata Sampann",
     "niche": "Grocery & Essentials",
     "category": "Rice & Rice Products",
-    "unit": "500 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/poha_500g.png"
   },
@@ -50,7 +46,6 @@
     "brand": "Fortune",
     "niche": "Grocery & Essentials",
     "category": "Flours & Grains",
-    "unit": "500 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/sooji_500g.png"
   },
@@ -61,7 +56,6 @@
     "brand": "Rajdhani",
     "niche": "Grocery & Essentials",
     "category": "Flours & Grains",
-    "unit": "1 kg",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/maida_1kg.png"
   },
@@ -72,7 +66,6 @@
     "brand": "Tata Sampann",
     "niche": "Grocery & Essentials",
     "category": "Flours & Grains",
-    "unit": "500 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/besan_500g.png"
   },
@@ -83,7 +76,6 @@
     "brand": "Bambino",
     "niche": "Grocery & Essentials",
     "category": "Flours & Grains",
-    "unit": "400 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/vermicelli_400g.png"
   },
@@ -94,8 +86,7 @@
     "brand": "Store Pack",
     "niche": "Grocery & Essentials",
     "category": "Flours & Grains",
-    "unit": "500 g",
-    "isPromoted": false,
+    "isPromoted": true,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/sabudana_500g.png"
   },
   {
@@ -105,7 +96,6 @@
     "brand": "Store Pack",
     "niche": "Grocery & Essentials",
     "category": "Rice & Rice Products",
-    "unit": "500 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/murmura_500g.png"
   },
@@ -116,7 +106,6 @@
     "brand": "Rajdhani",
     "niche": "Grocery & Essentials",
     "category": "Flours & Grains",
-    "unit": "500 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/daliya_500g.png"
   },
@@ -127,7 +116,6 @@
     "brand": "Quaker",
     "niche": "Grocery & Essentials",
     "category": "Breakfast Cereals",
-    "unit": "1 kg",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/quaker_oats_1kg.png"
   },
@@ -138,7 +126,6 @@
     "brand": "MTR",
     "niche": "Grocery & Essentials",
     "category": "Flours & Grains",
-    "unit": "1 kg",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/jowar_atta_1kg.png"
   },
@@ -149,7 +136,6 @@
     "brand": "24 Mantra",
     "niche": "Grocery & Essentials",
     "category": "Flours & Grains",
-    "unit": "500 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/ragi_flour_500g.png"
   },
@@ -160,7 +146,6 @@
     "brand": "Weikfield",
     "niche": "Grocery & Essentials",
     "category": "Flours & Grains",
-    "unit": "100 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/cornflour_100g.png"
   },
@@ -171,7 +156,6 @@
     "brand": "Store Pack",
     "niche": "Grocery & Essentials",
     "category": "Rice & Rice Products",
-    "unit": "1 kg",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/idli_rice_1kg.png"
   },
@@ -182,7 +166,6 @@
     "brand": "Tata Sampann",
     "niche": "Grocery & Essentials",
     "category": "Dals & Pulses",
-    "unit": "1 kg",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/toor_dal_1kg.png"
   },
@@ -193,7 +176,6 @@
     "brand": "Tata Sampann",
     "niche": "Grocery & Essentials",
     "category": "Dals & Pulses",
-    "unit": "1 kg",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/moong_dal_1kg.png"
   },
@@ -204,7 +186,6 @@
     "brand": "Tata Sampann",
     "niche": "Grocery & Essentials",
     "category": "Dals & Pulses",
-    "unit": "500 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/green_moong_500g.png"
   },
@@ -215,7 +196,6 @@
     "brand": "Fortune",
     "niche": "Grocery & Essentials",
     "category": "Dals & Pulses",
-    "unit": "1 kg",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/urad_dal_1kg.png"
   },
@@ -226,7 +206,6 @@
     "brand": "Tata Sampann",
     "niche": "Grocery & Essentials",
     "category": "Dals & Pulses",
-    "unit": "1 kg",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/chana_dal_1kg.png"
   },
@@ -237,7 +216,6 @@
     "brand": "Tata Sampann",
     "niche": "Grocery & Essentials",
     "category": "Dals & Pulses",
-    "unit": "1 kg",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/masoor_dal_1kg.png"
   },
@@ -248,7 +226,6 @@
     "brand": "Store Pack",
     "niche": "Grocery & Essentials",
     "category": "Dals & Pulses",
-    "unit": "500 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/kali_masoor_500g.png"
   },
@@ -259,7 +236,6 @@
     "brand": "Tata Sampann",
     "niche": "Grocery & Essentials",
     "category": "Dals & Pulses",
-    "unit": "1 kg",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/kabuli_chana_1kg.png"
   },
@@ -270,7 +246,6 @@
     "brand": "Tata Sampann",
     "niche": "Grocery & Essentials",
     "category": "Dals & Pulses",
-    "unit": "1 kg",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/kala_chana_1kg.png"
   },
@@ -281,7 +256,6 @@
     "brand": "Tata Sampann",
     "niche": "Grocery & Essentials",
     "category": "Dals & Pulses",
-    "unit": "500 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/rajma_500g.png"
   },
@@ -292,7 +266,6 @@
     "brand": "Store Pack",
     "niche": "Grocery & Essentials",
     "category": "Dals & Pulses",
-    "unit": "500 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/bhuna_chana_500g.png"
   },
@@ -303,7 +276,6 @@
     "brand": "Nutrela",
     "niche": "Grocery & Essentials",
     "category": "Dals & Pulses",
-    "unit": "200 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/nutrela_soya_200g.png"
   },
@@ -314,7 +286,6 @@
     "brand": "Store Pack",
     "niche": "Grocery & Essentials",
     "category": "Dals & Pulses",
-    "unit": "500 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/safed_matar_500g.png"
   },
@@ -325,7 +296,6 @@
     "brand": "Store Pack",
     "niche": "Grocery & Essentials",
     "category": "Dals & Pulses",
-    "unit": "500 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/lobia_500g.png"
   },
@@ -336,7 +306,6 @@
     "brand": "Fortune",
     "niche": "Grocery & Essentials",
     "category": "Edible Oils & Ghee",
-    "unit": "1 L",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/sunflower_oil_1l.png"
   },
@@ -347,7 +316,6 @@
     "brand": "Engine",
     "niche": "Grocery & Essentials",
     "category": "Edible Oils & Ghee",
-    "unit": "1 L",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/mustard_oil_1l.png"
   },
@@ -358,7 +326,6 @@
     "brand": "Fortune",
     "niche": "Grocery & Essentials",
     "category": "Edible Oils & Ghee",
-    "unit": "1 L",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/groundnut_oil_1l.png"
   },
@@ -369,7 +336,6 @@
     "brand": "Amul",
     "niche": "Grocery & Essentials",
     "category": "Edible Oils & Ghee",
-    "unit": "1 L",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/amul_ghee_1l.png"
   },
@@ -380,7 +346,6 @@
     "brand": "Dalda",
     "niche": "Grocery & Essentials",
     "category": "Edible Oils & Ghee",
-    "unit": "1 L",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/dalda_vanaspati_1l.png"
   },
@@ -391,7 +356,6 @@
     "brand": "Parachute",
     "niche": "Grocery & Essentials",
     "category": "Edible Oils & Ghee",
-    "unit": "500 ml",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/coconut_oil_500ml.png"
   },
@@ -402,7 +366,6 @@
     "brand": "Tata Salt",
     "niche": "Grocery & Essentials",
     "category": "Salt, Sugar & Jaggery",
-    "unit": "1 kg",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/tata_salt_1kg.png"
   },
@@ -413,7 +376,6 @@
     "brand": "Tata Salt",
     "niche": "Grocery & Essentials",
     "category": "Salt, Sugar & Jaggery",
-    "unit": "1 kg",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/sendha_namak_1kg.png"
   },
@@ -424,7 +386,6 @@
     "brand": "Madhur",
     "niche": "Grocery & Essentials",
     "category": "Salt, Sugar & Jaggery",
-    "unit": "1 kg",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/madhur_sugar_1kg.png"
   },
@@ -435,7 +396,6 @@
     "brand": "Organic Tattva",
     "niche": "Grocery & Essentials",
     "category": "Salt, Sugar & Jaggery",
-    "unit": "1 kg",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/jaggery_1kg.png"
   },
@@ -446,7 +406,6 @@
     "brand": "Store Pack",
     "niche": "Grocery & Essentials",
     "category": "Salt, Sugar & Jaggery",
-    "unit": "250 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/mishri_250g.png"
   },
@@ -457,7 +416,6 @@
     "brand": "Catch",
     "niche": "Grocery & Essentials",
     "category": "Spices & Masalas",
-    "unit": "100 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/jeera_100g.png"
   },
@@ -468,7 +426,6 @@
     "brand": "Catch",
     "niche": "Grocery & Essentials",
     "category": "Spices & Masalas",
-    "unit": "100 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/rai_100g.png"
   },
@@ -479,7 +436,6 @@
     "brand": "Everest",
     "niche": "Grocery & Essentials",
     "category": "Spices & Masalas",
-    "unit": "200 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/haldi_200g.png"
   },
@@ -490,7 +446,6 @@
     "brand": "Everest",
     "niche": "Grocery & Essentials",
     "category": "Spices & Masalas",
-    "unit": "200 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/chilli_powder_200g.png"
   },
@@ -512,7 +467,6 @@
     "brand": "Everest",
     "niche": "Grocery & Essentials",
     "category": "Spices & Masalas",
-    "unit": "100 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/garam_masala_100g.png"
   },
@@ -523,7 +477,6 @@
     "brand": "LG",
     "niche": "Grocery & Essentials",
     "category": "Spices & Masalas",
-    "unit": "50 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/lg_hing_50g.png"
   },
@@ -534,7 +487,6 @@
     "brand": "Catch",
     "niche": "Grocery & Essentials",
     "category": "Spices & Masalas",
-    "unit": "100 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/ajwain_100g.png"
   },
@@ -545,7 +497,6 @@
     "brand": "Catch",
     "niche": "Grocery & Essentials",
     "category": "Spices & Masalas",
-    "unit": "100 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/methi_dana_100g.png"
   },
@@ -556,7 +507,6 @@
     "brand": "Catch",
     "niche": "Grocery & Essentials",
     "category": "Spices & Masalas",
-    "unit": "100 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/saunf_100g.png"
   },
@@ -567,7 +517,6 @@
     "brand": "Catch",
     "niche": "Grocery & Essentials",
     "category": "Spices & Masalas",
-    "unit": "100 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/black_pepper_100g.png"
   },
@@ -578,7 +527,6 @@
     "brand": "Catch",
     "niche": "Grocery & Essentials",
     "category": "Spices & Masalas",
-    "unit": "50 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/cloves_50g.png"
   },
@@ -589,7 +537,6 @@
     "brand": "Catch",
     "niche": "Grocery & Essentials",
     "category": "Spices & Masalas",
-    "unit": "25 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/green_cardamom_25g.png"
   },
@@ -600,7 +547,6 @@
     "brand": "Store Pack",
     "niche": "Grocery & Essentials",
     "category": "Spices & Masalas",
-    "unit": "50 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/badi_elaichi_50g.png"
   },
@@ -611,7 +557,6 @@
     "brand": "Catch",
     "niche": "Grocery & Essentials",
     "category": "Spices & Masalas",
-    "unit": "50 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/cinnamon_50g.png"
   },
@@ -622,7 +567,6 @@
     "brand": "Catch",
     "niche": "Grocery & Essentials",
     "category": "Spices & Masalas",
-    "unit": "20 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/bay_leaf_20g.png"
   },
@@ -633,7 +577,6 @@
     "brand": "Store Pack",
     "niche": "Grocery & Essentials",
     "category": "Spices & Masalas",
-    "unit": "50 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/star_anise_50g.png"
   },
@@ -644,7 +587,6 @@
     "brand": "Store Pack",
     "niche": "Grocery & Essentials",
     "category": "Spices & Masalas",
-    "unit": "2 Pcs",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/jaiphal_2pc.png"
   },
@@ -655,7 +597,6 @@
     "brand": "Everest",
     "niche": "Grocery & Essentials",
     "category": "Spices & Masalas",
-    "unit": "50 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/kasuri_methi_50g.png"
   },
@@ -666,7 +607,6 @@
     "brand": "Store Pack",
     "niche": "Grocery & Essentials",
     "category": "Spices & Masalas",
-    "unit": "500 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/imli_500g.png"
   },
@@ -677,7 +617,6 @@
     "brand": "Everest",
     "niche": "Grocery & Essentials",
     "category": "Spices & Masalas",
-    "unit": "100 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/amchur_100g.png"
   },
@@ -688,7 +627,6 @@
     "brand": "Catch",
     "niche": "Grocery & Essentials",
     "category": "Spices & Masalas",
-    "unit": "100 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/chaat_masala_100g.png"
   },
@@ -699,7 +637,6 @@
     "brand": "Everest",
     "niche": "Grocery & Essentials",
     "category": "Spices & Masalas",
-    "unit": "100 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/pav_bhaji_masala_100g.png"
   },
@@ -710,7 +647,6 @@
     "brand": "Store Pack",
     "niche": "Grocery & Essentials",
     "category": "Dry Fruits & Nuts",
-    "unit": "500 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/peanuts_500g.png"
   },
@@ -721,7 +657,6 @@
     "brand": "Tata Sampann",
     "niche": "Grocery & Essentials",
     "category": "Dry Fruits & Nuts",
-    "unit": "200 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/kaju_200g.png"
   },
@@ -732,7 +667,6 @@
     "brand": "Tata Sampann",
     "niche": "Grocery & Essentials",
     "category": "Dry Fruits & Nuts",
-    "unit": "200 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/badam_200g.png"
   },
@@ -743,7 +677,6 @@
     "brand": "Tulsi",
     "niche": "Grocery & Essentials",
     "category": "Dry Fruits & Nuts",
-    "unit": "200 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/kismis_200g.png"
   },
@@ -754,7 +687,6 @@
     "brand": "Store Pack",
     "niche": "Grocery & Essentials",
     "category": "Dry Fruits & Nuts",
-    "unit": "250 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/khopra_250g.png"
   },
@@ -765,7 +697,6 @@
     "brand": "Tulsi",
     "niche": "Grocery & Essentials",
     "category": "Dry Fruits & Nuts",
-    "unit": "200 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/akhrot_200g.png"
   },
@@ -776,7 +707,6 @@
     "brand": "Store Pack",
     "niche": "Grocery & Essentials",
     "category": "Spices & Masalas",
-    "unit": "50 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/khus_khus_50g.png"
   },
@@ -787,7 +717,6 @@
     "brand": "Weikfield",
     "niche": "Grocery & Essentials",
     "category": "Baking & Cooking Aids",
-    "unit": "100 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/baking_soda_100g.png"
   },
@@ -798,7 +727,6 @@
     "brand": "Weikfield",
     "niche": "Grocery & Essentials",
     "category": "Baking & Cooking Aids",
-    "unit": "100 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/baking_powder_100g.png"
   },
@@ -809,7 +737,6 @@
     "brand": "Eno",
     "niche": "Grocery & Essentials",
     "category": "Baking & Cooking Aids",
-    "unit": "5 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/eno_sachet_5g.png"
   },
@@ -820,7 +747,6 @@
     "brand": "Urban Platter",
     "niche": "Grocery & Essentials",
     "category": "Baking & Cooking Aids",
-    "unit": "50 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/yeast_50g.png"
   },
@@ -831,7 +757,6 @@
     "brand": "Store Pack",
     "niche": "Grocery & Essentials",
     "category": "Baking & Cooking Aids",
-    "unit": "50 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/nimbu_sat_50g.png"
   },
@@ -842,7 +767,6 @@
     "brand": "Brooke Bond Red Label",
     "niche": "Beverages",
     "category": "Tea & Coffee",
-    "unit": "500 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/red_label_500g.png"
   },
@@ -853,7 +777,6 @@
     "brand": "Tetley",
     "niche": "Beverages",
     "category": "Tea & Coffee",
-    "unit": "25 Bags",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/green_tea_25bags.png"
   },
@@ -864,7 +787,6 @@
     "brand": "Nescafé",
     "niche": "Beverages",
     "category": "Tea & Coffee",
-    "unit": "50 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/nescafe_50g.png"
   },
@@ -875,7 +797,6 @@
     "brand": "Bournvita",
     "niche": "Beverages",
     "category": "Health & Nutrition Drinks",
-    "unit": "500 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/bournvita_500g.png"
   },
@@ -886,7 +807,6 @@
     "brand": "Amul",
     "niche": "Dairy & Breakfast",
     "category": "Milk & Milk Products",
-    "unit": "500 ml",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/amul_taaza_500ml.png"
   },
@@ -897,7 +817,6 @@
     "brand": "Amul",
     "niche": "Dairy & Breakfast",
     "category": "Milk & Milk Products",
-    "unit": "400 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/amul_dahi_400g.png"
   },
@@ -908,7 +827,6 @@
     "brand": "Amul",
     "niche": "Dairy & Breakfast",
     "category": "Milk & Milk Products",
-    "unit": "200 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/amul_paneer_200g.png"
   },
@@ -919,7 +837,6 @@
     "brand": "Amul",
     "niche": "Dairy & Breakfast",
     "category": "Butter & Cheese",
-    "unit": "100 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/amul_butter_100g.png"
   },
@@ -930,7 +847,6 @@
     "brand": "Amul",
     "niche": "Dairy & Breakfast",
     "category": "Butter & Cheese",
-    "unit": "200 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/amul_cheese_cubes.png"
   },
@@ -941,7 +857,6 @@
     "brand": "Britannia",
     "niche": "Dairy & Breakfast",
     "category": "Breads & Bakery",
-    "unit": "400 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/white_bread_400g.png"
   },
@@ -952,7 +867,6 @@
     "brand": "Eggoz",
     "niche": "Dairy & Breakfast",
     "category": "Eggs & Breakfast",
-    "unit": "Pack of 6",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/eggs_pack6.png"
   },
@@ -963,7 +877,6 @@
     "brand": "Frooti",
     "niche": "Beverages",
     "category": "Juices & Fruit Drinks",
-    "unit": "125 ml",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/frooti_125ml.png"
   },
@@ -974,7 +887,6 @@
     "brand": "Coca-Cola",
     "niche": "Beverages",
     "category": "Soft Drinks & Soda",
-    "unit": "750 ml",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/coca_cola_750ml.png"
   },
@@ -985,7 +897,6 @@
     "brand": "Bisleri",
     "niche": "Beverages",
     "category": "Water",
-    "unit": "1 L",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/bisleri_1l.png"
   },
@@ -996,7 +907,6 @@
     "brand": "Hamdard",
     "niche": "Beverages",
     "category": "Syrups & Drink Mixes",
-    "unit": "750 ml",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/rooh_afza_750ml.png"
   },
@@ -1007,7 +917,6 @@
     "brand": "Maggi",
     "niche": "Packaged Foods & Snacks",
     "category": "Noodles & Pasta",
-    "unit": "70 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/maggi_70g.png"
   },
@@ -1018,7 +927,6 @@
     "brand": "Ching's Secret",
     "niche": "Packaged Foods & Snacks",
     "category": "Noodles & Pasta",
-    "unit": "150 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/chings_hakka_150g.png"
   },
@@ -1029,7 +937,6 @@
     "brand": "Bambino",
     "niche": "Packaged Foods & Snacks",
     "category": "Noodles & Pasta",
-    "unit": "500 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/bambino_macaroni_500g.png"
   },
@@ -1040,7 +947,6 @@
     "brand": "Parle",
     "niche": "Packaged Foods & Snacks",
     "category": "Biscuits & Cookies",
-    "unit": "250 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/parle_g_250g.png"
   },
@@ -1051,7 +957,6 @@
     "brand": "Britannia",
     "niche": "Packaged Foods & Snacks",
     "category": "Biscuits & Cookies",
-    "unit": "250 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/marie_gold_250g.png"
   },
@@ -1062,7 +967,6 @@
     "brand": "Britannia",
     "niche": "Packaged Foods & Snacks",
     "category": "Biscuits & Cookies",
-    "unit": "100 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/good_day_100g.png"
   },
@@ -1073,7 +977,6 @@
     "brand": "Parle",
     "niche": "Packaged Foods & Snacks",
     "category": "Biscuits & Cookies",
-    "unit": "200 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/monaco_200g.png"
   },
@@ -1084,7 +987,6 @@
     "brand": "Kurkure",
     "niche": "Packaged Foods & Snacks",
     "category": "Chips & Namkeen",
-    "unit": "75 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/kurkure_75g.png"
   },
@@ -1095,7 +997,6 @@
     "brand": "Haldiram's",
     "niche": "Packaged Foods & Snacks",
     "category": "Chips & Namkeen",
-    "unit": "150 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/aloo_bhujia_150g.png"
   },
@@ -1106,7 +1007,6 @@
     "brand": "Store Pack",
     "niche": "Packaged Foods & Snacks",
     "category": "Chips & Namkeen",
-    "unit": "200 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/fryums_200g.png"
   },
@@ -1117,7 +1017,6 @@
     "brand": "Lijjat",
     "niche": "Packaged Foods & Snacks",
     "category": "Papads & Ready to Fry",
-    "unit": "200 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/lijjat_papad_200g.png"
   },
@@ -1128,7 +1027,6 @@
     "brand": "Kissan",
     "niche": "Packaged Foods & Snacks",
     "category": "Sauces & Condiments",
-    "unit": "450 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/kissan_ketchup_450g.png"
   },
@@ -1139,7 +1037,6 @@
     "brand": "Ching's Secret",
     "niche": "Packaged Foods & Snacks",
     "category": "Sauces & Condiments",
-    "unit": "250 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/schezwan_chutney_250g.png"
   },
@@ -1150,7 +1047,6 @@
     "brand": "Veeba",
     "niche": "Packaged Foods & Snacks",
     "category": "Sauces & Condiments",
-    "unit": "250 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/veeba_mayo_250g.png"
   },
@@ -1161,7 +1057,6 @@
     "brand": "Kissan",
     "niche": "Packaged Foods & Snacks",
     "category": "Jams & Spreads",
-    "unit": "500 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/kissan_jam_500g.png"
   },
@@ -1172,7 +1067,6 @@
     "brand": "Mother's Recipe",
     "niche": "Packaged Foods & Snacks",
     "category": "Pickles & Chutneys",
-    "unit": "400 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/mango_pickle_400g.png"
   },
@@ -1183,7 +1077,6 @@
     "brand": "Dabur",
     "niche": "Grocery & Essentials",
     "category": "Cooking Pastes & Purees",
-    "unit": "200 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/ginger_garlic_paste_200g.png"
   },
@@ -1194,7 +1087,6 @@
     "brand": "Cadbury",
     "niche": "Packaged Foods & Snacks",
     "category": "Chocolates & Candies",
-    "unit": "50 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/dairy_milk_50g.png"
   },
@@ -1205,7 +1097,6 @@
     "brand": "Parle",
     "niche": "Packaged Foods & Snacks",
     "category": "Chocolates & Candies",
-    "unit": "Pack of 50",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/mango_bite_pack.png"
   },
@@ -1216,7 +1107,6 @@
     "brand": "Center Fresh",
     "niche": "Packaged Foods & Snacks",
     "category": "Mints & Gums",
-    "unit": "Pack of 20",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/center_fresh.png"
   },
@@ -1227,7 +1117,6 @@
     "brand": "Gits",
     "niche": "Packaged Foods & Snacks",
     "category": "Ready Mixes",
-    "unit": "200 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/gulab_jamun_mix_200g.png"
   },
@@ -1238,7 +1127,6 @@
     "brand": "Dettol",
     "niche": "Personal Care & Hygiene",
     "category": "Soaps & Body Wash",
-    "unit": "75 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/dettol_soap_75g.png"
   },
@@ -1249,7 +1137,6 @@
     "brand": "Colgate",
     "niche": "Personal Care & Hygiene",
     "category": "Oral Care",
-    "unit": "100 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/colgate_100g.png"
   },
@@ -1260,7 +1147,6 @@
     "brand": "Oral-B",
     "niche": "Personal Care & Hygiene",
     "category": "Oral Care",
-    "unit": "1 Pc",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/oralb_toothbrush.png"
   },
@@ -1271,7 +1157,6 @@
     "brand": "Head & Shoulders",
     "niche": "Personal Care & Hygiene",
     "category": "Hair Care",
-    "unit": "180 ml",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/head_shoulders_180ml.png"
   },
@@ -1282,7 +1167,6 @@
     "brand": "Dove",
     "niche": "Personal Care & Hygiene",
     "category": "Hair Care",
-    "unit": "7.5 ml",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/dove_conditioner_sachet.png"
   },
@@ -1293,7 +1177,6 @@
     "brand": "Dabur",
     "niche": "Personal Care & Hygiene",
     "category": "Hair Care",
-    "unit": "100 ml",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/dabur_amla_100ml.png"
   },
@@ -1304,7 +1187,6 @@
     "brand": "Godrej Expert",
     "niche": "Personal Care & Hygiene",
     "category": "Hair Care",
-    "unit": "1 Sachet",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/godrej_expert_creme.png"
   },
@@ -1315,7 +1197,6 @@
     "brand": "Whisper",
     "niche": "Personal Care & Hygiene",
     "category": "Feminine Hygiene",
-    "unit": "Pack of 6",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/whisper_choice_6p.png"
   },
@@ -1326,7 +1207,6 @@
     "brand": "Pampers",
     "niche": "Baby Care",
     "category": "Diapers & Wipes",
-    "unit": "1 Pc",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/pampers_diaper_m.png"
   },
@@ -1337,7 +1217,6 @@
     "brand": "Johnson's",
     "niche": "Baby Care",
     "category": "Baby Bath & Skin",
-    "unit": "75 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/johnsons_soap_75g.png"
   },
@@ -1348,7 +1227,6 @@
     "brand": "Lifebuoy",
     "niche": "Personal Care & Hygiene",
     "category": "Handwash & Sanitizers",
-    "unit": "180 ml",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/lifebuoy_handwash_180ml.png"
   },
@@ -1359,7 +1237,6 @@
     "brand": "Gillette",
     "niche": "Personal Care & Hygiene",
     "category": "Men's Grooming",
-    "unit": "200 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/gillette_foam_200g.png"
   },
@@ -1370,7 +1247,6 @@
     "brand": "Gillette 7 O'Clock",
     "niche": "Personal Care & Hygiene",
     "category": "Men's Grooming",
-    "unit": "Pack of 5",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/gillette_blades_5p.png"
   },
@@ -1381,7 +1257,6 @@
     "brand": "Pond's",
     "niche": "Personal Care & Hygiene",
     "category": "Skin Care",
-    "unit": "100 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/ponds_talc_100g.png"
   },
@@ -1392,7 +1267,6 @@
     "brand": "Vaseline",
     "niche": "Personal Care & Hygiene",
     "category": "Skin Care",
-    "unit": "50 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/vaseline_jelly_50g.png"
   },
@@ -1403,7 +1277,6 @@
     "brand": "Tulips",
     "niche": "Personal Care & Hygiene",
     "category": "Cotton & Buds",
-    "unit": "100 Tips",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/tulips_earbuds_100.png"
   },
@@ -1414,7 +1287,6 @@
     "brand": "Origami",
     "niche": "Personal Care & Hygiene",
     "category": "Tissues & Wipes",
-    "unit": "Pack of 10",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/pocket_tissues.png"
   },
@@ -1425,7 +1297,6 @@
     "brand": "Surf Excel",
     "niche": "Cleaning & Household",
     "category": "Laundry Detergents",
-    "unit": "1 kg",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/surf_excel_1kg.png"
   },
@@ -1436,7 +1307,6 @@
     "brand": "Rin",
     "niche": "Cleaning & Household",
     "category": "Laundry Detergents",
-    "unit": "250 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/rin_bar_250g.png"
   },
@@ -1447,7 +1317,6 @@
     "brand": "Genteel",
     "niche": "Cleaning & Household",
     "category": "Laundry Detergents",
-    "unit": "1 L",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/genteel_liquid_1l.png"
   },
@@ -1458,7 +1327,6 @@
     "brand": "Ujala",
     "niche": "Cleaning & Household",
     "category": "Fabric Care",
-    "unit": "100 ml",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/ujala_100ml.png"
   },
@@ -1469,7 +1337,6 @@
     "brand": "Vim",
     "niche": "Cleaning & Household",
     "category": "Dishwash & Kitchen Cleaners",
-    "unit": "200 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/vim_bar_200g.png"
   },
@@ -1480,7 +1347,6 @@
     "brand": "Vim",
     "niche": "Cleaning & Household",
     "category": "Dishwash & Kitchen Cleaners",
-    "unit": "250 ml",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/vim_gel_250ml.png"
   },
@@ -1491,7 +1357,6 @@
     "brand": "Harpic",
     "niche": "Cleaning & Household",
     "category": "Toilet & Bathroom Cleaners",
-    "unit": "500 ml",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/harpic_500ml.png"
   },
@@ -1502,7 +1367,6 @@
     "brand": "Lizol",
     "niche": "Cleaning & Household",
     "category": "Floor & Surface Cleaners",
-    "unit": "500 ml",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/lizol_500ml.png"
   },
@@ -1513,7 +1377,6 @@
     "brand": "Colin",
     "niche": "Cleaning & Household",
     "category": "Floor & Surface Cleaners",
-    "unit": "500 ml",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/colin_500ml.png"
   },
@@ -1524,7 +1387,6 @@
     "brand": "Scotch-Brite",
     "niche": "Cleaning & Household",
     "category": "Cleaning Tools & Accessories",
-    "unit": "Pack of 3",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/scotch_brite_3p.png"
   },
@@ -1535,7 +1397,6 @@
     "brand": "Drainex",
     "niche": "Cleaning & Household",
     "category": "Toilet & Bathroom Cleaners",
-    "unit": "50 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/drainex_50g.png"
   },
@@ -1546,7 +1407,6 @@
     "brand": "Odonil",
     "niche": "Cleaning & Household",
     "category": "Air Fresheners",
-    "unit": "50 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/odonil_lavender_50g.png"
   },
@@ -1557,7 +1417,6 @@
     "brand": "Homelite",
     "niche": "Pooja & Household Utilities",
     "category": "Matches & Lighters",
-    "unit": "Pack of 10",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/matchbox_bundle.png"
   },
@@ -1568,7 +1427,6 @@
     "brand": "Cycle Pure",
     "niche": "Pooja & Household Utilities",
     "category": "Pooja Needs",
-    "unit": "140 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/cycle_agarbatti_140g.png"
   },
@@ -1579,7 +1437,6 @@
     "brand": "Mangaldeep",
     "niche": "Pooja & Household Utilities",
     "category": "Pooja Needs",
-    "unit": "50 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/camphor_50g.png"
   },
@@ -1590,7 +1447,6 @@
     "brand": "Store Pack",
     "niche": "Pooja & Household Utilities",
     "category": "Pooja Needs",
-    "unit": "100 Pcs",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/cotton_batti_100p.png"
   },
@@ -1601,7 +1457,6 @@
     "brand": "Store Pack",
     "niche": "Pooja & Household Utilities",
     "category": "Pooja Needs",
-    "unit": "50 g",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/chandan_powder_50g.png"
   },
@@ -1612,7 +1467,6 @@
     "brand": "Good Knight",
     "niche": "Cleaning & Household",
     "category": "Pest Control",
-    "unit": "45 ml",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/goodknight_refill_45ml.png"
   },
@@ -1623,7 +1477,6 @@
     "brand": "Mortein",
     "niche": "Cleaning & Household",
     "category": "Pest Control",
-    "unit": "Pack of 10",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/mortein_coils_10p.png"
   },
@@ -1634,7 +1487,6 @@
     "brand": "Duracell",
     "niche": "Pooja & Household Utilities",
     "category": "Batteries & Hardware",
-    "unit": "Pack of 2",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/duracell_aa_2p.png"
   },
@@ -1645,7 +1497,6 @@
     "brand": "Shalimar",
     "niche": "Cleaning & Household",
     "category": "Disposables & Trash Bags",
-    "unit": "Roll of 30",
     "isPromoted": false,
     "image": "https://cdn.jsdelivr.net/gh/assets/kirana/garbage_bags_m.png"
   }
