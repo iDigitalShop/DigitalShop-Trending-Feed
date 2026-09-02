@@ -11,7 +11,7 @@
     {
       "id": "promo-ambajogai-flour",
       "name": "Shree Ganesh Chakki Fresh Atta 30kg Bag",
-      "show"=false,
+      "show":false,
       "brand": "Shree Ganesh Mills",
       "brandContact": "+91 98220 12345",
       "brandWhatsApp": "919822012345",
@@ -44,7 +44,7 @@
         {
       "id": "promo-akash-code",
       "name": "Akash i Digital Shop",
-      "show"=false,
+      "show":false,
       "brand": "iDigital Shop",
       "brandContact": "+91 98220 12345",
       "brandWhatsApp": "919822012345",
