@@ -1,8 +1,8 @@
 {
   "config": {
     "showAll": true,
-    "showImage": true,
-    "showBrand": true,
+    "showImage": false,
+    "showBrand": false,
     "showUnit": true,
     "showCategory": true
   },
