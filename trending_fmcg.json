@@ -3,7 +3,7 @@
     "showAll": true,
     "showImage": false,
     "showBrand": false,
-    "showUnit": true,
+    "showUnit": false,
     "showCategory": true
   },
   "items": [
