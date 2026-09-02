@@ -25,7 +25,42 @@
       "pincode": "431517",
       "targetPincodes": [
         "431517",
-        "431515"
+        "431515",
+        "431556",
+        "560067",
+        "560067"
+      ],
+      "isPromoted": true,
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=350&q=80",
+      "unit": "Bag",
+      "searchKeywords": [
+        "chakki atta",
+        "gehu atta",
+        "shree ganesh",
+        "flour"
+      ]
+    },
+        {
+      "id": "promo-akash-code",
+      "name": "Akash i Digital Shop",
+      "brand": "iDigital Shop",
+      "brandContact": "+91 98220 12345",
+      "brandWhatsApp": "919822012345",
+      "brandAddress": "Lokhandi Sawargaon, Maharashtra",
+      "brandNote": "Buy once and enjoy full year",
+      "niche": "App Promo",
+      "category": "Business",
+      "shopCategories": [
+        "Kirana Shop",
+        "Grocery Shop"
+      ],
+      "pincode": "431517",
+      "targetPincodes": [
+        "431517",
+        "431515",
+        "431556",
+        "560067",
+        "560067"
       ],
       "isPromoted": true,
       "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=350&q=80",
