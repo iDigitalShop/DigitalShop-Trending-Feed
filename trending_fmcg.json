@@ -2,11 +2,9 @@
   "config": {
     "showAll": true,
     "showImage": true,
-    "showBrand": false,
-    "showUnit": false,
-    "showCategory": true,
-    "showDistributorContact": false,
-    "showGoogleMap": false
+    "showBrand": true,
+    "showUnit": true,
+    "showCategory": true
   },
   "items": [
     {
@@ -26,7 +24,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/wheat_flour.png",
       "unit": "kg"
     },
@@ -47,7 +44,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/basmati_rice.png",
       "unit": "kg"
     },
@@ -68,7 +64,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/sona_masoori.png",
       "unit": "kg"
     },
@@ -90,7 +85,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/poha.png",
       "unit": "kg"
     },
@@ -113,7 +107,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/sooji.png",
       "unit": "kg"
     },
@@ -134,7 +127,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/maida.png",
       "unit": "kg"
     },
@@ -155,7 +147,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/besan.png",
       "unit": "kg"
     },
@@ -176,7 +167,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/vermicelli.png",
       "unit": "kg"
     },
@@ -197,7 +187,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/sabudana.png",
       "unit": "kg"
     },
@@ -219,7 +208,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/murmura.png",
       "unit": "kg"
     },
@@ -240,7 +228,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/daliya.png",
       "unit": "kg"
     },
@@ -261,7 +248,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/oats.png",
       "unit": "Pkt"
     },
@@ -281,7 +267,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/jowar_atta.png",
       "unit": "kg"
     },
@@ -301,7 +286,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/ragi_flour.png",
       "unit": "kg"
     },
@@ -322,7 +306,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/cornflour.png",
       "unit": "kg"
     },
@@ -343,7 +326,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/idli_rice.png",
       "unit": "kg"
     },
@@ -364,7 +346,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/toor_dal.png",
       "unit": "kg"
     },
@@ -385,7 +366,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/moong_dal.png",
       "unit": "kg"
     },
@@ -405,7 +385,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/green_moong.png",
       "unit": "kg"
     },
@@ -426,7 +405,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/urad_dal.png",
       "unit": "kg"
     },
@@ -447,7 +425,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/chana_dal.png",
       "unit": "kg"
     },
@@ -468,7 +445,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/masoor_dal.png",
       "unit": "kg"
     },
@@ -488,7 +464,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/kali_masoor.png",
       "unit": "kg"
     },
@@ -509,7 +484,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/kabuli_chana.png",
       "unit": "kg"
     },
@@ -529,7 +503,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/kala_chana.png",
       "unit": "kg"
     },
@@ -550,7 +523,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/rajma.png",
       "unit": "kg"
     },
@@ -572,7 +544,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/bhuna_chana.png",
       "unit": "kg"
     },
@@ -593,7 +564,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/soya_chunks.png",
       "unit": "kg"
     },
@@ -614,7 +584,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/safed_matar.png",
       "unit": "kg"
     },
@@ -635,7 +604,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/lobia.png",
       "unit": "kg"
     },
@@ -656,7 +624,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/sunflower_oil.png",
       "unit": "L"
     },
@@ -677,7 +644,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/mustard_oil.png",
       "unit": "L"
     },
@@ -698,7 +664,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/groundnut_oil.png",
       "unit": "L"
     },
@@ -720,7 +685,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/desi_ghee.png",
       "unit": "L"
     },
@@ -741,7 +705,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/vanaspati.png",
       "unit": "L"
     },
@@ -761,7 +724,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/coconut_oil.png",
       "unit": "L"
     },
@@ -782,7 +744,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/salt.png",
       "unit": "kg"
     },
@@ -804,7 +765,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/sendha_namak.png",
       "unit": "kg"
     },
@@ -827,7 +787,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/sugar.png",
       "unit": "kg"
     },
@@ -849,7 +808,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/jaggery.png",
       "unit": "kg"
     },
@@ -871,7 +829,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/mishri.png",
       "unit": "kg"
     },
@@ -892,7 +849,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/jeera.png",
       "unit": "Pkt"
     },
@@ -914,7 +870,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/rai.png",
       "unit": "Pkt"
     },
@@ -935,7 +890,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/haldi.png",
       "unit": "Pkt"
     },
@@ -956,7 +910,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/chilli_powder.png",
       "unit": "Pkt"
     },
@@ -977,7 +930,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/dhaniya_powder.png",
       "unit": "Pkt"
     },
@@ -997,7 +949,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/garam_masala.png",
       "unit": "Pkt"
     },
@@ -1017,7 +968,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/hing.png",
       "unit": "Pkt"
     },
@@ -1038,7 +988,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/ajwain.png",
       "unit": "Pkt"
     },
@@ -1059,7 +1008,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/methi_dana.png",
       "unit": "Pkt"
     },
@@ -1081,7 +1029,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/saunf.png",
       "unit": "Pkt"
     },
@@ -1102,7 +1049,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/black_pepper.png",
       "unit": "Pkt"
     },
@@ -1123,7 +1069,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/cloves.png",
       "unit": "Pkt"
     },
@@ -1145,7 +1090,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/green_cardamom.png",
       "unit": "Pkt"
     },
@@ -1166,7 +1110,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/badi_elaichi.png",
       "unit": "Pkt"
     },
@@ -1188,7 +1131,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/cinnamon.png",
       "unit": "Pkt"
     },
@@ -1209,7 +1151,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/bay_leaf.png",
       "unit": "Pkt"
     },
@@ -1230,7 +1171,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/star_anise.png",
       "unit": "Pkt"
     },
@@ -1252,7 +1192,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/jaiphal.png",
       "unit": "Pkt"
     },
@@ -1272,7 +1211,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/kasuri_methi.png",
       "unit": "Pkt"
     },
@@ -1293,7 +1231,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/imli.png",
       "unit": "Pkt"
     },
@@ -1314,7 +1251,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/amchur.png",
       "unit": "Pkt"
     },
@@ -1334,7 +1270,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/chaat_masala.png",
       "unit": "Pkt"
     },
@@ -1354,7 +1289,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/pav_bhaji_masala.png",
       "unit": "Pkt"
     },
@@ -1377,7 +1311,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/peanuts.png",
       "unit": "Pkt"
     },
@@ -1399,7 +1332,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/kaju.png",
       "unit": "Pkt"
     },
@@ -1421,7 +1353,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/badam.png",
       "unit": "Pkt"
     },
@@ -1444,7 +1375,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/kismis.png",
       "unit": "Pkt"
     },
@@ -1466,7 +1396,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/khopra.png",
       "unit": "Pkt"
     },
@@ -1488,7 +1417,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/akhrot.png",
       "unit": "Pkt"
     },
@@ -1510,7 +1438,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/khus_khus.png",
       "unit": "Pkt"
     },
@@ -1531,7 +1458,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/baking_soda.png",
       "unit": "Pkt"
     },
@@ -1551,7 +1477,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/baking_powder.png",
       "unit": "Pkt"
     },
@@ -1573,7 +1498,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/fruit_salt.png",
       "unit": "kg"
     },
@@ -1595,7 +1519,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/yeast.png",
       "unit": "Pkt"
     },
@@ -1617,7 +1540,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/citric_acid.png",
       "unit": "Pkt"
     },
@@ -1638,7 +1560,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/tea_leaves.png",
       "unit": "Pkt"
     },
@@ -1659,7 +1580,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/green_tea.png",
       "unit": "Pkt"
     },
@@ -1681,7 +1601,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/coffee.png",
       "unit": "Pkt"
     },
@@ -1703,7 +1622,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/health_drink.png",
       "unit": "Pkt"
     },
@@ -1726,7 +1644,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/milk.png",
       "unit": "Pkt"
     },
@@ -1748,7 +1665,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/dahi.png",
       "unit": "Pkt"
     },
@@ -1770,7 +1686,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/paneer.png",
       "unit": "Pkt"
     },
@@ -1792,7 +1707,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/butter.png",
       "unit": "kg"
     },
@@ -1814,7 +1728,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/cheese_cubes.png",
       "unit": "Pkt"
     },
@@ -1836,7 +1749,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/white_bread.png",
       "unit": "Pkt"
     },
@@ -1857,7 +1769,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/eggs.png",
       "unit": "Pkt"
     },
@@ -1879,7 +1790,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/mango_drink.png",
       "unit": "Pkt"
     },
@@ -1902,7 +1812,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/cola_drink.png",
       "unit": "Pkt"
     },
@@ -1925,7 +1834,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/mineral_water.png",
       "unit": "Pkt"
     },
@@ -1947,7 +1855,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/rose_syrup.png",
       "unit": "Pkt"
     },
@@ -1969,7 +1876,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/instant_noodles.png",
       "unit": "Pkt"
     },
@@ -1989,7 +1895,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/hakka_noodles.png",
       "unit": "Pkt"
     },
@@ -2009,7 +1914,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/macaroni.png",
       "unit": "Pkt"
     },
@@ -2031,7 +1935,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/glucose_biscuits.png",
       "unit": "Pkt"
     },
@@ -2053,7 +1956,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/marie_biscuits.png",
       "unit": "Pkt"
     },
@@ -2075,7 +1977,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/cashew_cookies.png",
       "unit": "Pkt"
     },
@@ -2096,7 +1997,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/salted_crackers.png",
       "unit": "kg"
     },
@@ -2118,7 +2018,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/masala_puffs.png",
       "unit": "Pkt"
     },
@@ -2140,7 +2039,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/aloo_bhujia.png",
       "unit": "Pkt"
     },
@@ -2161,7 +2059,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/fryums.png",
       "unit": "Pkt"
     },
@@ -2182,7 +2079,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/papad.png",
       "unit": "Pkt"
     },
@@ -2204,7 +2100,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/tomato_ketchup.png",
       "unit": "Pkt"
     },
@@ -2224,7 +2119,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/schezwan_chutney.png",
       "unit": "Pkt"
     },
@@ -2246,7 +2140,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/mayonnaise.png",
       "unit": "Pkt"
     },
@@ -2268,7 +2161,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/mixed_jam.png",
       "unit": "Pkt"
     },
@@ -2289,7 +2181,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/mango_pickle.png",
       "unit": "Pkt"
     },
@@ -2309,7 +2200,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/ginger_garlic_paste.png",
       "unit": "Pkt"
     },
@@ -2332,7 +2222,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/chocolate_bar.png",
       "unit": "Pkt"
     },
@@ -2354,7 +2243,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/candies.png",
       "unit": "Pkt"
     },
@@ -2376,7 +2264,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/chewing_gum.png",
       "unit": "Pkt"
     },
@@ -2398,7 +2285,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/gulab_jamun_mix.png",
       "unit": "Pkt"
     },
@@ -2420,7 +2306,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/bath_soap.png",
       "unit": "Pkt"
     },
@@ -2443,7 +2328,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/toothpaste.png",
       "unit": "Pkt"
     },
@@ -2465,7 +2349,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/toothbrush.png",
       "unit": "Pkt"
     },
@@ -2487,7 +2370,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/shampoo.png",
       "unit": "Pkt"
     },
@@ -2508,7 +2390,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/conditioner.png",
       "unit": "Pkt"
     },
@@ -2530,7 +2411,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/amla_oil.png",
       "unit": "L"
     },
@@ -2553,7 +2433,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/hair_colour.png",
       "unit": "Pkt"
     },
@@ -2575,7 +2454,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/sanitary_pads.png",
       "unit": "Pkt"
     },
@@ -2597,7 +2475,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/baby_diaper.png",
       "unit": "Pkt"
     },
@@ -2618,7 +2495,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/baby_soap.png",
       "unit": "Pkt"
     },
@@ -2640,7 +2516,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/handwash.png",
       "unit": "Pkt"
     },
@@ -2661,7 +2536,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/shaving_foam.png",
       "unit": "Pkt"
     },
@@ -2683,7 +2557,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/razor_blades.png",
       "unit": "Pkt"
     },
@@ -2705,7 +2578,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/talcum_powder.png",
       "unit": "Pkt"
     },
@@ -2727,7 +2599,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/petroleum_jelly.png",
       "unit": "Pkt"
     },
@@ -2748,7 +2619,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/cotton_buds.png",
       "unit": "Pkt"
     },
@@ -2771,7 +2641,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/pocket_tissues.png",
       "unit": "Pkt"
     },
@@ -2792,7 +2661,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/detergent_powder.png",
       "unit": "Pkt"
     },
@@ -2813,7 +2681,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/detergent_bar.png",
       "unit": "Pkt"
     },
@@ -2834,7 +2701,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/liquid_detergent.png",
       "unit": "Pkt"
     },
@@ -2855,7 +2721,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/fabric_blue.png",
       "unit": "Pkt"
     },
@@ -2875,7 +2740,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/dishwash_bar.png",
       "unit": "Box"
     },
@@ -2895,7 +2759,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/dishwash_gel.png",
       "unit": "Box"
     },
@@ -2916,7 +2779,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/toilet_cleaner.png",
       "unit": "L"
     },
@@ -2937,7 +2799,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/floor_cleaner.png",
       "unit": "Pkt"
     },
@@ -2958,7 +2819,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/glass_cleaner.png",
       "unit": "Pkt"
     },
@@ -2979,7 +2839,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/scrub_pad.png",
       "unit": "Box"
     },
@@ -3000,7 +2859,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/drain_cleaner.png",
       "unit": "L"
     },
@@ -3020,7 +2878,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/air_freshener.png",
       "unit": "Pkt"
     },
@@ -3041,7 +2898,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/matchbox.png",
       "unit": "Box"
     },
@@ -3062,7 +2918,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/agarbatti.png",
       "unit": "Pkt"
     },
@@ -3084,7 +2939,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/camphor.png",
       "unit": "Pkt"
     },
@@ -3105,7 +2959,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/cotton_batti.png",
       "unit": "Pkt"
     },
@@ -3126,7 +2979,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/chandan_powder.png",
       "unit": "kg"
     },
@@ -3149,7 +3001,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/mosquito_refill.png",
       "unit": "Pkt"
     },
@@ -3170,7 +3021,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/mosquito_coils.png",
       "unit": "L"
     },
@@ -3195,7 +3045,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/batteries_aa.png",
       "unit": "Pkt"
     },
@@ -3217,7 +3066,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/garbage_bags.png",
       "unit": "Pkt"
     },
@@ -3239,7 +3087,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/pav.png",
       "unit": "Pkt"
     },
@@ -3259,7 +3106,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/burger_buns.png",
       "unit": "Pkt"
     },
@@ -3279,7 +3125,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/brown_bread.png",
       "unit": "Pkt"
     },
@@ -3301,7 +3146,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/milk_rusk.png",
       "unit": "Pkt"
     },
@@ -3323,7 +3167,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/khari.png",
       "unit": "Pkt"
     },
@@ -3343,7 +3186,6 @@
         "Kirana Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/cream_roll.png",
       "unit": "Pkt"
     },
@@ -3365,7 +3207,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/fruit_cake.png",
       "unit": "Pkt"
     },
@@ -3384,7 +3225,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/pastry.png",
       "unit": "Pkt"
     },
@@ -3404,7 +3244,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/kaju_katli.png",
       "unit": "Pkt"
     },
@@ -3424,7 +3263,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/laddu.png",
       "unit": "Pkt"
     },
@@ -3443,7 +3281,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/gulab_jamun.png",
       "unit": "Pkt"
     },
@@ -3463,7 +3300,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/rasgulla.png",
       "unit": "Pkt"
     },
@@ -3482,7 +3318,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/rasmalai.png",
       "unit": "Pkt"
     },
@@ -3502,7 +3337,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/peda.png",
       "unit": "Pkt"
     },
@@ -3521,7 +3355,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/bakery_cookies.png",
       "unit": "Pkt"
     },
@@ -3541,7 +3374,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/birthday_cake.png",
       "unit": "Pkt"
     },
@@ -3560,7 +3392,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/pineapple_cake.png",
       "unit": "Pkt"
     },
@@ -3580,7 +3411,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/veg_puff.png",
       "unit": "Pkt"
     },
@@ -3601,7 +3431,6 @@
         "Dairy & Milk Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/mawa.png",
       "unit": "Pkt"
     },
@@ -3621,7 +3450,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/vanilla_essence.png",
       "unit": "Pkt"
     },
@@ -3640,7 +3468,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/dark_chocolate_slab.png",
       "unit": "Pkt"
     },
@@ -3662,7 +3489,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/cake_candles.png",
       "unit": "Pkt"
     },
@@ -3682,7 +3508,6 @@
         "Gift & Toy Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/sparkler_candle.png",
       "unit": "Pkt"
     },
@@ -3703,7 +3528,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/tutti_frutti.png",
       "unit": "Pkt"
     },
@@ -3724,7 +3548,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/food_colour.png",
       "unit": "Box"
     },
@@ -3743,7 +3566,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/choco_chips.png",
       "unit": "Pkt"
     },
@@ -3762,7 +3584,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/whipping_cream.png",
       "unit": "Pkt"
     },
@@ -3782,7 +3603,6 @@
         "Kirana Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/dry_samosa.png",
       "unit": "Pkt"
     },
@@ -3801,7 +3621,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/dhokla.png",
       "unit": "Pkt"
     },
@@ -3820,7 +3639,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/jalebi.png",
       "unit": "Pkt"
     },
@@ -3839,7 +3657,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/kaju_roll.png",
       "unit": "Pkt"
     },
@@ -3861,7 +3678,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/soan_papdi.png",
       "unit": "Box"
     },
@@ -3882,7 +3698,6 @@
         "Gift & Toy Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/dry_fruit_box.png",
       "unit": "Box"
     },
@@ -3902,7 +3717,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/cupcake.png",
       "unit": "Pkt"
     },
@@ -3921,7 +3735,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/garlic_bread.png",
       "unit": "Pkt"
     },
@@ -3941,7 +3754,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/pizza_base.png",
       "unit": "Pkt"
     },
@@ -3960,7 +3772,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/cocoa_powder.png",
       "unit": "Pkt"
     },
@@ -3980,7 +3791,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/icing_sugar.png",
       "unit": "kg"
     },
@@ -4001,7 +3811,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/cake_knife.png",
       "unit": "Box"
     },
@@ -4020,7 +3829,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/silver_vark.png",
       "unit": "L"
     },
@@ -4041,7 +3849,6 @@
         "Kirana Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/kewra_water.png",
       "unit": "Pkt"
     },
@@ -4062,7 +3869,6 @@
         "Kirana Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/rose_water.png",
       "unit": "Pkt"
     },
@@ -4082,7 +3888,6 @@
         "Dairy & Milk Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/badam_milk.png",
       "unit": "Pkt"
     },
@@ -4101,7 +3906,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/rabdi.png",
       "unit": "Pkt"
     },
@@ -4120,7 +3924,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/kheer.png",
       "unit": "Pkt"
     },
@@ -4139,7 +3942,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/gajar_halwa.png",
       "unit": "Pkt"
     },
@@ -4157,7 +3959,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/badam_halwa.png",
       "unit": "Pkt"
     },
@@ -4176,7 +3977,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/sonth_laddu.png",
       "unit": "Pkt"
     },
@@ -4195,7 +3995,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/besan_laddu.png",
       "unit": "kg"
     },
@@ -4214,7 +4013,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/mysore_pak.png",
       "unit": "Pkt"
     },
@@ -4235,7 +4033,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/paracetamol.png",
       "unit": "Pkt"
     },
@@ -4255,7 +4052,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/painkiller.png",
       "unit": "Pkt"
     },
@@ -4275,7 +4071,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/cetirizine.png",
       "unit": "Pkt"
     },
@@ -4295,7 +4090,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/antacid_tablets.png",
       "unit": "Pkt"
     },
@@ -4314,7 +4108,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/antacid_syrup.png",
       "unit": "Pcs"
     },
@@ -4334,7 +4127,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/ors.png",
       "unit": "kg"
     },
@@ -4354,7 +4146,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/cough_syrup.png",
       "unit": "Pkt"
     },
@@ -4376,7 +4167,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/pain_gel.png",
       "unit": "Pkt"
     },
@@ -4396,7 +4186,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/pain_spray.png",
       "unit": "Pkt"
     },
@@ -4418,7 +4207,6 @@
         "General Store & Stationary"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/bandages.png",
       "unit": "Pkt"
     },
@@ -4439,7 +4227,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/antiseptic_liquid.png",
       "unit": "Pkt"
     },
@@ -4458,7 +4245,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/betadine.png",
       "unit": "Pkt"
     },
@@ -4478,7 +4264,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/cotton_roll.png",
       "unit": "Pkt"
     },
@@ -4497,7 +4282,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/gauze_roll.png",
       "unit": "Pkt"
     },
@@ -4516,7 +4300,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/crepe_bandage.png",
       "unit": "Pkt"
     },
@@ -4535,7 +4318,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/thermometer.png",
       "unit": "Pkt"
     },
@@ -4554,7 +4336,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/bp_monitor.png",
       "unit": "Pkt"
     },
@@ -4574,7 +4355,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/glucometer.png",
       "unit": "Pkt"
     },
@@ -4593,7 +4373,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/oximeter.png",
       "unit": "kg"
     },
@@ -4614,7 +4393,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/inhaler.png",
       "unit": "Pkt"
     },
@@ -4636,7 +4414,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/pain_balm.png",
       "unit": "Pkt"
     },
@@ -4658,7 +4435,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/lozenges.png",
       "unit": "Pkt"
     },
@@ -4678,7 +4454,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/vitamin_c.png",
       "unit": "Pkt"
     },
@@ -4697,7 +4472,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/b_complex.png",
       "unit": "Pkt"
     },
@@ -4716,7 +4490,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/calcium.png",
       "unit": "Pkt"
     },
@@ -4737,7 +4510,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/chyawanprash.png",
       "unit": "Pkt"
     },
@@ -4758,7 +4530,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/sanitizer.png",
       "unit": "Pkt"
     },
@@ -4778,7 +4549,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/face_mask.png",
       "unit": "Pkt"
     },
@@ -4798,7 +4568,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/n95_mask.png",
       "unit": "Pkt"
     },
@@ -4818,7 +4587,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/gloves.png",
       "unit": "Pkt"
     },
@@ -4837,7 +4605,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/hot_water_bag.png",
       "unit": "Pkt"
     },
@@ -4857,7 +4624,6 @@
         "Electrical & Hardware"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/heating_pad.png",
       "unit": "Pkt"
     },
@@ -4877,7 +4643,6 @@
         "Electrical & Hardware"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/steamer.png",
       "unit": "Pkt"
     },
@@ -4896,7 +4661,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/pregnancy_kit.png",
       "unit": "Box"
     },
@@ -4916,7 +4680,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/condoms.png",
       "unit": "Pkt"
     },
@@ -4936,7 +4699,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/antifungal_powder.png",
       "unit": "Pkt"
     },
@@ -4956,7 +4718,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/ulcer_gel.png",
       "unit": "Pkt"
     },
@@ -4975,7 +4736,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/eye_drops.png",
       "unit": "Pkt"
     },
@@ -4995,7 +4755,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/ear_drops.png",
       "unit": "Pkt"
     },
@@ -5015,7 +4774,6 @@
         "Kirana Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/gripe_water.png",
       "unit": "Pkt"
     },
@@ -5037,7 +4795,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/isabgol.png",
       "unit": "Pkt"
     },
@@ -5056,7 +4813,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/hydrogen_peroxide.png",
       "unit": "Pkt"
     },
@@ -5075,7 +4831,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/micropore_tape.png",
       "unit": "Pcs"
     },
@@ -5094,7 +4849,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/adult_diaper.png",
       "unit": "Pkt"
     },
@@ -5113,7 +4867,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/knee_cap.png",
       "unit": "Pkt"
     },
@@ -5132,7 +4885,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/back_belt.png",
       "unit": "Pkt"
     },
@@ -5151,7 +4903,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/burn_cream.png",
       "unit": "Pkt"
     },
@@ -5173,7 +4924,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/digestive_drops.png",
       "unit": "Pkt"
     },
@@ -5192,7 +4942,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/syringe.png",
       "unit": "Pkt"
     },
@@ -5213,7 +4962,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/protein_powder.png",
       "unit": "Pkt"
     },
@@ -5233,7 +4981,6 @@
         "Gift & Toy Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/rc_car.png",
       "unit": "Pcs"
     },
@@ -5253,7 +5000,6 @@
         "Gift & Toy Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/teddy_bear.png",
       "unit": "Pcs"
     },
@@ -5273,7 +5019,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/speed_cube.png",
       "unit": "Pkt"
     },
@@ -5292,7 +5037,6 @@
         "Gift & Toy Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/building_blocks.png",
       "unit": "Box"
     },
@@ -5313,7 +5057,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/ludo_board.png",
       "unit": "Pkt"
     },
@@ -5333,7 +5076,6 @@
         "Sports Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/carrom_board.png",
       "unit": "Pkt"
     },
@@ -5353,7 +5095,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/chess.png",
       "unit": "Pkt"
     },
@@ -5372,7 +5113,6 @@
         "Gift & Toy Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/doll.png",
       "unit": "Pkt"
     },
@@ -5391,7 +5131,6 @@
         "Gift & Toy Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/action_figure.png",
       "unit": "Pkt"
     },
@@ -5412,7 +5151,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/play_dough.png",
       "unit": "Pcs"
     },
@@ -5431,7 +5169,6 @@
         "Gift & Toy Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/kitchen_set.png",
       "unit": "Box"
     },
@@ -5450,7 +5187,6 @@
         "Gift & Toy Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/doctor_set.png",
       "unit": "Pcs"
     },
@@ -5469,7 +5205,6 @@
         "Gift & Toy Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/metal_car.png",
       "unit": "Pcs"
     },
@@ -5488,7 +5223,6 @@
         "Gift & Toy Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/train_set.png",
       "unit": "Box"
     },
@@ -5509,7 +5243,6 @@
         "Kirana Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/water_gun.png",
       "unit": "Pcs"
     },
@@ -5529,7 +5262,6 @@
         "Sports Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/cricket_set.png",
       "unit": "Pcs"
     },
@@ -5549,7 +5281,6 @@
         "Sports Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/football.png",
       "unit": "Pcs"
     },
@@ -5570,7 +5301,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/badminton.png",
       "unit": "Pcs"
     },
@@ -5589,7 +5319,6 @@
         "Gift & Toy Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/bubble_gun.png",
       "unit": "Pcs"
     },
@@ -5608,7 +5337,6 @@
         "Gift & Toy Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/kids_scooter.png",
       "unit": "Pcs"
     },
@@ -5629,7 +5357,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/rattles.png",
       "unit": "Pcs"
     },
@@ -5648,7 +5375,6 @@
         "Gift & Toy Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/toy_piano.png",
       "unit": "Pcs"
     },
@@ -5667,7 +5393,6 @@
         "Gift & Toy Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/toy_gun.png",
       "unit": "Pcs"
     },
@@ -5688,7 +5413,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/gift_mug.png",
       "unit": "Pkt"
     },
@@ -5708,7 +5432,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/photo_frame.png",
       "unit": "Pkt"
     },
@@ -5728,7 +5451,6 @@
         "Electrical & Hardware"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/wall_clock.png",
       "unit": "Pkt"
     },
@@ -5747,7 +5469,6 @@
         "Gift & Toy Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/snow_globe.png",
       "unit": "Pkt"
     },
@@ -5767,7 +5488,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/gift_paper.png",
       "unit": "Pcs"
     },
@@ -5789,7 +5509,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/balloons.png",
       "unit": "Pkt"
     },
@@ -5810,7 +5529,6 @@
         "Bakery & Sweet Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/birthday_banner.png",
       "unit": "L"
     },
@@ -5830,7 +5548,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/school_bottle.png",
       "unit": "Pkt"
     },
@@ -5851,7 +5568,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/lunch_box.png",
       "unit": "Box"
     },
@@ -5871,7 +5587,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/greeting_cards.png",
       "unit": "Pkt"
     },
@@ -5890,7 +5605,6 @@
         "Gift & Toy Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/wind_chime.png",
       "unit": "Pkt"
     },
@@ -5910,7 +5624,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/fidget_spinner.png",
       "unit": "Pkt"
     },
@@ -5931,7 +5644,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/slime.png",
       "unit": "Pcs"
     },
@@ -5950,7 +5662,6 @@
         "Gift & Toy Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/binoculars.png",
       "unit": "Pcs"
     },
@@ -5971,7 +5682,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/piggy_bank.png",
       "unit": "Pcs"
     },
@@ -5990,7 +5700,6 @@
         "Gift & Toy Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/walkie_talkie.png",
       "unit": "Pcs"
     },
@@ -6010,7 +5719,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/puzzle.png",
       "unit": "Pkt"
     },
@@ -6030,7 +5738,6 @@
         "Sports Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/skipping_rope.png",
       "unit": "Pcs"
     },
@@ -6050,7 +5757,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/magic_slate.png",
       "unit": "Pcs"
     },
@@ -6069,7 +5775,6 @@
         "Gift & Toy Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/yoyo.png",
       "unit": "Pcs"
     },
@@ -6088,7 +5793,6 @@
         "Gift & Toy Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/toy_helicopter.png",
       "unit": "Pcs"
     },
@@ -6108,7 +5812,6 @@
         "Sports Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/dart_board.png",
       "unit": "Box"
     },
@@ -6127,7 +5830,6 @@
         "Gift & Toy Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/scented_candle.png",
       "unit": "Pkt"
     },
@@ -6147,7 +5849,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/keychain.png",
       "unit": "Pkt"
     },
@@ -6166,7 +5867,6 @@
         "Gift & Toy Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/water_game.png",
       "unit": "Pkt"
     },
@@ -6186,7 +5886,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/pop_it.png",
       "unit": "Pcs"
     },
@@ -6207,7 +5906,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/snow_spray.png",
       "unit": "Pkt"
     },
@@ -6227,7 +5925,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/hammer.png",
       "unit": "Pkt"
     },
@@ -6247,7 +5944,6 @@
         "Electrical & Hardware"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/pliers.png",
       "unit": "Pkt"
     },
@@ -6267,7 +5963,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/wrench.png",
       "unit": "Pkt"
     },
@@ -6287,7 +5982,6 @@
         "Electrical & Hardware"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/screwdriver_set.png",
       "unit": "Box"
     },
@@ -6307,7 +6001,6 @@
         "Electrical & Hardware"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/measuring_tape.png",
       "unit": "Pkt"
     },
@@ -6326,7 +6019,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/hacksaw.png",
       "unit": "Pkt"
     },
@@ -6348,7 +6040,6 @@
         "Electrical & Hardware"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/cutter.png",
       "unit": "Pcs"
     },
@@ -6369,7 +6060,6 @@
         "Kirana Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/padlock.png",
       "unit": "Pkt"
     },
@@ -6389,7 +6079,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/teflon_tape.png",
       "unit": "Pkt"
     },
@@ -6408,7 +6097,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/solvent_cement.png",
       "unit": "Pkt"
     },
@@ -6428,7 +6116,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/screws.png",
       "unit": "Box"
     },
@@ -6448,7 +6135,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/iron_nails.png",
       "unit": "Pkt"
     },
@@ -6469,7 +6155,6 @@
         "Electrical & Hardware"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/wall_plugs.png",
       "unit": "Pkt"
     },
@@ -6489,7 +6174,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/sandpaper.png",
       "unit": "Pcs"
     },
@@ -6508,7 +6192,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/paint_brush.png",
       "unit": "Pkt"
     },
@@ -6528,7 +6211,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/enamel_paint.png",
       "unit": "Pkt"
     },
@@ -6547,7 +6229,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/thinner.png",
       "unit": "Pcs"
     },
@@ -6569,7 +6250,6 @@
         "Electrical & Hardware"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/super_glue.png",
       "unit": "Pkt"
     },
@@ -6590,7 +6270,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/wood_glue.png",
       "unit": "Pkt"
     },
@@ -6612,7 +6291,6 @@
         "Kirana Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/mseal.png",
       "unit": "Pkt"
     },
@@ -6631,7 +6309,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/silicone_sealant.png",
       "unit": "Pkt"
     },
@@ -6651,7 +6328,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/hinges.png",
       "unit": "Pkt"
     },
@@ -6671,7 +6347,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/tower_bolt.png",
       "unit": "Pkt"
     },
@@ -6690,7 +6365,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/door_handle.png",
       "unit": "Pkt"
     },
@@ -6710,7 +6384,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/water_tap.png",
       "unit": "Pkt"
     },
@@ -6729,7 +6402,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/brass_tap.png",
       "unit": "Pkt"
     },
@@ -6749,7 +6421,6 @@
         "Electrical & Hardware"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/connection_pipe.png",
       "unit": "Pkt"
     },
@@ -6768,7 +6439,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/health_faucet.png",
       "unit": "Pkt"
     },
@@ -6787,7 +6457,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/waste_pipe.png",
       "unit": "Pkt"
     },
@@ -6806,7 +6475,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/sink_jali.png",
       "unit": "Pkt"
     },
@@ -6826,7 +6494,6 @@
         "Kirana Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/plunger.png",
       "unit": "L"
     },
@@ -6846,7 +6513,6 @@
         "Electrical & Hardware"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/wd40.png",
       "unit": "Pcs"
     },
@@ -6865,7 +6531,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/grease.png",
       "unit": "Pkt"
     },
@@ -6885,7 +6550,6 @@
         "Kirana Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/nylon_rope.png",
       "unit": "Pkt"
     },
@@ -6904,7 +6568,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/wire_mesh.png",
       "unit": "Pkt"
     },
@@ -6923,7 +6586,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/garden_pipe.png",
       "unit": "Pkt"
     },
@@ -6942,7 +6604,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/hose_clamp.png",
       "unit": "Pkt"
     },
@@ -6962,7 +6623,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/trowel.png",
       "unit": "Pkt"
     },
@@ -6981,7 +6641,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/chisel.png",
       "unit": "Pkt"
     },
@@ -7001,7 +6660,6 @@
         "Electrical & Hardware"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/drill_bit.png",
       "unit": "Box"
     },
@@ -7020,7 +6678,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/work_gloves.png",
       "unit": "Pkt"
     },
@@ -7039,7 +6696,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/safety_goggles.png",
       "unit": "Pkt"
     },
@@ -7058,7 +6714,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/pop_powder.png",
       "unit": "Pkt"
     },
@@ -7077,7 +6732,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/wall_putty.png",
       "unit": "Pkt"
     },
@@ -7098,7 +6752,6 @@
         "Kirana Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/brown_tape.png",
       "unit": "Pkt"
     },
@@ -7119,7 +6772,6 @@
         "Electrical & Hardware"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/double_sided_tape.png",
       "unit": "Pkt"
     },
@@ -7139,7 +6791,6 @@
         "Electrical & Hardware"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/saddle_clip.png",
       "unit": "Pkt"
     },
@@ -7159,7 +6810,6 @@
         "Electrical & Hardware"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/allen_key.png",
       "unit": "Box"
     },
@@ -7178,7 +6828,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/cutting_wheel.png",
       "unit": "Pkt"
     },
@@ -7196,7 +6845,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/grease_gun.png",
       "unit": "Pkt"
     },
@@ -7219,7 +6867,6 @@
         "Grocery Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/led_bulb.png",
       "unit": "Pkt"
     },
@@ -7239,7 +6886,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/tube_light.png",
       "unit": "Pkt"
     },
@@ -7260,7 +6906,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/switch_6a.png",
       "unit": "Pkt"
     },
@@ -7281,7 +6926,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/socket.png",
       "unit": "Pkt"
     },
@@ -7300,7 +6944,6 @@
         "Electrical & Hardware"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/switch_plate.png",
       "unit": "Pkt"
     },
@@ -7323,7 +6966,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/electrical_tape.png",
       "unit": "Pkt"
     },
@@ -7345,7 +6987,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/copper_wire.png",
       "unit": "Pkt"
     },
@@ -7365,7 +7006,6 @@
         "Electrical & Hardware"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/copper_wire_heavy.png",
       "unit": "Pkt"
     },
@@ -7385,7 +7025,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/flex_wire.png",
       "unit": "Pkt"
     },
@@ -7406,7 +7045,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/power_plug.png",
       "unit": "Pkt"
     },
@@ -7426,7 +7064,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/plug_6a.png",
       "unit": "Pkt"
     },
@@ -7448,7 +7085,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/extension_board.png",
       "unit": "Pkt"
     },
@@ -7469,7 +7105,6 @@
         "Kirana Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/multi_plug.png",
       "unit": "Pkt"
     },
@@ -7490,7 +7125,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/tester.png",
       "unit": "Pkt"
     },
@@ -7509,7 +7143,6 @@
         "Electrical & Hardware"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/multimeter.png",
       "unit": "Pkt"
     },
@@ -7528,7 +7161,6 @@
         "Electrical & Hardware"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/mcb.png",
       "unit": "Pkt"
     },
@@ -7547,7 +7179,6 @@
         "Electrical & Hardware"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/isolator.png",
       "unit": "Pkt"
     },
@@ -7568,7 +7199,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/bulb_holder.png",
       "unit": "Pcs"
     },
@@ -7587,7 +7217,6 @@
         "Electrical & Hardware"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/hanging_holder.png",
       "unit": "Pcs"
     },
@@ -7606,7 +7235,6 @@
         "Electrical & Hardware"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/fan_regulator.png",
       "unit": "Pkt"
     },
@@ -7625,7 +7253,6 @@
         "Electrical & Hardware"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/capacitor.png",
       "unit": "Pkt"
     },
@@ -7645,7 +7272,6 @@
         "Electrical & Hardware"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/ceiling_fan.png",
       "unit": "Pkt"
     },
@@ -7664,7 +7290,6 @@
         "Electrical & Hardware"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/exhaust_fan.png",
       "unit": "Pkt"
     },
@@ -7683,7 +7308,6 @@
         "Electrical & Hardware"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/immersion_rod.png",
       "unit": "Pkt"
     },
@@ -7703,7 +7327,6 @@
         "Electrical & Hardware"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/dry_iron.png",
       "unit": "Pkt"
     },
@@ -7723,7 +7346,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/door_bell.png",
       "unit": "Pkt"
     },
@@ -7744,7 +7366,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/emergency_torch.png",
       "unit": "Pkt"
     },
@@ -7765,7 +7386,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/mosquito_bat.png",
       "unit": "Pkt"
     },
@@ -7784,7 +7404,6 @@
         "Electrical & Hardware"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/soldering_iron.png",
       "unit": "Pkt"
     },
@@ -7803,7 +7422,6 @@
         "Electrical & Hardware"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/soldering_lead.png",
       "unit": "Pkt"
     },
@@ -7823,7 +7441,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/wire_stripper.png",
       "unit": "Pcs"
     },
@@ -7845,7 +7462,6 @@
         "Gift & Toy Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/batteries_aaa.png",
       "unit": "Pkt"
     },
@@ -7866,7 +7482,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/battery_9v.png",
       "unit": "Pkt"
     },
@@ -7888,7 +7503,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/button_cell.png",
       "unit": "Pkt"
     },
@@ -7909,7 +7523,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/cable_ties.png",
       "unit": "Pkt"
     },
@@ -7929,7 +7542,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/casing_patti.png",
       "unit": "Pkt"
     },
@@ -7950,7 +7562,6 @@
         "Kirana Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/type_c_cable.png",
       "unit": "Pkt"
     },
@@ -7970,7 +7581,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/charger_adapter.png",
       "unit": "Pkt"
     },
@@ -7991,7 +7601,6 @@
         "Gift & Toy Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/night_lamp.png",
       "unit": "Pkt"
     },
@@ -8013,7 +7622,6 @@
         "Kirana Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/fairy_lights.png",
       "unit": "kg"
     },
@@ -8032,7 +7640,6 @@
         "Electrical & Hardware"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/geyser_element.png",
       "unit": "Pkt"
     },
@@ -8051,7 +7658,6 @@
         "Electrical & Hardware"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/mixer_coupler.png",
       "unit": "Pkt"
     },
@@ -8070,7 +7676,6 @@
         "Electrical & Hardware"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/carbon_brush.png",
       "unit": "Box"
     },
@@ -8089,7 +7694,6 @@
         "Electrical & Hardware"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/heat_shrink.png",
       "unit": "Pkt"
     },
@@ -8109,7 +7713,6 @@
         "Electrical & Hardware"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/ceramic_fuse.png",
       "unit": "Pkt"
     },
@@ -8128,7 +7731,6 @@
         "Electrical & Hardware"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/starter_relay.png",
       "unit": "Pkt"
     },
@@ -8148,7 +7750,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/junction_box.png",
       "unit": "Box"
     },
@@ -8168,7 +7769,6 @@
         "Electrical & Hardware"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/downlight.png",
       "unit": "Pkt"
     },
@@ -8189,7 +7789,6 @@
         "Gift & Toy Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/glue_gun.png",
       "unit": "Pkt"
     },
@@ -8209,7 +7808,6 @@
         "Electrical & Hardware"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/coaxial_cable.png",
       "unit": "Pkt"
     },
@@ -8229,7 +7827,6 @@
         "Clothing & Garments"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/men_tshirt.png",
       "unit": "Pkt"
     },
@@ -8248,7 +7845,6 @@
         "Clothing & Garments"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/polo_tshirt.png",
       "unit": "Pkt"
     },
@@ -8268,7 +7864,6 @@
         "Clothing & Garments"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/formal_shirt.png",
       "unit": "Pkt"
     },
@@ -8288,7 +7883,6 @@
         "Clothing & Garments"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/denim_jeans.png",
       "unit": "Pkt"
     },
@@ -8308,7 +7902,6 @@
         "Clothing & Garments"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/chinos.png",
       "unit": "Pkt"
     },
@@ -8328,7 +7921,6 @@
         "Clothing & Garments"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/trackpant.png",
       "unit": "Pkt"
     },
@@ -8348,7 +7940,6 @@
         "Clothing & Garments"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/boxers.png",
       "unit": "Box"
     },
@@ -8369,7 +7960,6 @@
         "Clothing & Garments"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/banyan.png",
       "unit": "Pkt"
     },
@@ -8389,7 +7979,6 @@
         "Clothing & Garments"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/briefs.png",
       "unit": "Pkt"
     },
@@ -8410,7 +7999,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/handkerchief.png",
       "unit": "Pkt"
     },
@@ -8431,7 +8019,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/socks.png",
       "unit": "Pkt"
     },
@@ -8452,7 +8039,6 @@
         "Gift & Toy Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/leather_belt.png",
       "unit": "Pkt"
     },
@@ -8472,7 +8058,6 @@
         "Clothing & Garments"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/kurta_pajama.png",
       "unit": "Box"
     },
@@ -8492,7 +8077,6 @@
         "Clothing & Garments"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/dhoti.png",
       "unit": "Pkt"
     },
@@ -8512,7 +8096,6 @@
         "Clothing & Garments"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/kurti.png",
       "unit": "Pkt"
     },
@@ -8532,7 +8115,6 @@
         "Clothing & Garments"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/leggings.png",
       "unit": "Pkt"
     },
@@ -8551,7 +8133,6 @@
         "Clothing & Garments"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/palazzo.png",
       "unit": "Pkt"
     },
@@ -8571,7 +8152,6 @@
         "Clothing & Garments"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/saree.png",
       "unit": "Pkt"
     },
@@ -8590,7 +8170,6 @@
         "Clothing & Garments"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/petticoat.png",
       "unit": "Pkt"
     },
@@ -8609,7 +8188,6 @@
         "Clothing & Garments"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/blouse.png",
       "unit": "Pkt"
     },
@@ -8628,7 +8206,6 @@
         "Clothing & Garments"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/dupatta.png",
       "unit": "kg"
     },
@@ -8647,7 +8224,6 @@
         "Clothing & Garments"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/bra.png",
       "unit": "Pkt"
     },
@@ -8666,7 +8242,6 @@
         "Clothing & Garments"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/panties.png",
       "unit": "Pkt"
     },
@@ -8686,7 +8261,6 @@
         "Clothing & Garments"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/nighty.png",
       "unit": "Pkt"
     },
@@ -8705,7 +8279,6 @@
         "Clothing & Garments"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/women_jeans.png",
       "unit": "Pkt"
     },
@@ -8724,7 +8297,6 @@
         "Clothing & Garments"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/women_top.png",
       "unit": "Pkt"
     },
@@ -8743,7 +8315,6 @@
         "Clothing & Garments"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/boy_tshirt.png",
       "unit": "Pkt"
     },
@@ -8762,7 +8333,6 @@
         "Clothing & Garments"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/boy_shorts.png",
       "unit": "Pkt"
     },
@@ -8781,7 +8351,6 @@
         "Clothing & Garments"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/frock.png",
       "unit": "Pkt"
     },
@@ -8801,7 +8370,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/jhabla.png",
       "unit": "Box"
     },
@@ -8822,7 +8390,6 @@
         "Kirana Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/bath_towel.png",
       "unit": "Pkt"
     },
@@ -8842,7 +8409,6 @@
         "Kirana Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/gamcha.png",
       "unit": "Pkt"
     },
@@ -8861,7 +8427,6 @@
         "Clothing & Garments"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/bedsheet.png",
       "unit": "Pkt"
     },
@@ -8881,7 +8446,6 @@
         "Clothing & Garments"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/dohar.png",
       "unit": "Pkt"
     },
@@ -8900,7 +8464,6 @@
         "Clothing & Garments"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/curtains.png",
       "unit": "Box"
     },
@@ -8919,7 +8482,6 @@
         "Clothing & Garments"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/sweater.png",
       "unit": "Pkt"
     },
@@ -8938,7 +8500,6 @@
         "Clothing & Garments"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/hoodie.png",
       "unit": "Pkt"
     },
@@ -8958,7 +8519,6 @@
         "Clothing & Garments"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/thermals.png",
       "unit": "Box"
     },
@@ -8977,7 +8537,6 @@
         "Clothing & Garments"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/muffler.png",
       "unit": "Pkt"
     },
@@ -8997,7 +8556,6 @@
         "Clothing & Garments"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/woolen_cap.png",
       "unit": "Pkt"
     },
@@ -9017,7 +8575,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/raincoat.png",
       "unit": "Box"
     },
@@ -9039,7 +8596,6 @@
         "Kirana Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/umbrella.png",
       "unit": "Pkt"
     },
@@ -9059,7 +8615,6 @@
         "Kirana Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/apron.png",
       "unit": "Box"
     },
@@ -9080,7 +8635,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/kitchen_duster.png",
       "unit": "Box"
     },
@@ -9102,7 +8656,6 @@
         "Kirana Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/sewing_thread.png",
       "unit": "Box"
     },
@@ -9123,7 +8676,6 @@
         "Kirana Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/sewing_needles.png",
       "unit": "Pkt"
     },
@@ -9143,7 +8695,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/buttons.png",
       "unit": "Pkt"
     },
@@ -9162,7 +8713,6 @@
         "Clothing & Garments"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/elastic_band.png",
       "unit": "Pkt"
     },
@@ -9182,7 +8732,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/tailor_tape.png",
       "unit": "Pkt"
     },
@@ -9203,7 +8752,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/tailor_scissors.png",
       "unit": "Pcs"
     },
@@ -9223,7 +8771,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/ruled_notebook.png",
       "unit": "Pcs"
     },
@@ -9242,7 +8789,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/four_line_notebook.png",
       "unit": "Pcs"
     },
@@ -9261,7 +8807,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/math_notebook.png",
       "unit": "Pcs"
     },
@@ -9282,7 +8827,6 @@
         "Kirana Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/register.png",
       "unit": "Pcs"
     },
@@ -9302,7 +8846,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/a4_paper.png",
       "unit": "Pcs"
     },
@@ -9325,7 +8868,6 @@
         "Pharmacy & Medical Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/ball_pen.png",
       "unit": "Pcs"
     },
@@ -9344,7 +8886,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/gel_pen.png",
       "unit": "Pcs"
     },
@@ -9365,7 +8906,6 @@
         "Kirana Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/pencils.png",
       "unit": "Pcs"
     },
@@ -9385,7 +8925,6 @@
         "Kirana Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/erasers.png",
       "unit": "Pcs"
     },
@@ -9405,7 +8944,6 @@
         "Kirana Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/sharpener.png",
       "unit": "Pcs"
     },
@@ -9425,7 +8963,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/scale.png",
       "unit": "Pcs"
     },
@@ -9444,7 +8981,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/geometry_box.png",
       "unit": "Box"
     },
@@ -9464,7 +9000,6 @@
         "Gift & Toy Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/crayons.png",
       "unit": "Box"
     },
@@ -9484,7 +9019,6 @@
         "Gift & Toy Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/sketch_pens.png",
       "unit": "Pcs"
     },
@@ -9504,7 +9038,6 @@
         "Gift & Toy Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/water_colors.png",
       "unit": "Box"
     },
@@ -9523,7 +9056,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/drawing_book.png",
       "unit": "Pcs"
     },
@@ -9544,7 +9076,6 @@
         "Kirana Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/glue_bottle.png",
       "unit": "Pkt"
     },
@@ -9563,7 +9094,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/glue_stick.png",
       "unit": "Pkt"
     },
@@ -9584,7 +9114,6 @@
         "Kirana Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/cello_tape.png",
       "unit": "Pkt"
     },
@@ -9605,7 +9134,6 @@
         "Gift & Toy Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/student_scissors.png",
       "unit": "Pcs"
     },
@@ -9624,7 +9152,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/stapler.png",
       "unit": "Pkt"
     },
@@ -9643,7 +9170,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/stapler_pins.png",
       "unit": "Box"
     },
@@ -9662,7 +9188,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/binder_clips.png",
       "unit": "Pcs"
     },
@@ -9681,7 +9206,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/u_pins.png",
       "unit": "Pcs"
     },
@@ -9700,7 +9224,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/sticky_notes.png",
       "unit": "Pcs"
     },
@@ -9719,7 +9242,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/highlighters.png",
       "unit": "Pcs"
     },
@@ -9738,7 +9260,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/whiteboard_marker.png",
       "unit": "Pcs"
     },
@@ -9758,7 +9279,6 @@
         "Hardware Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/permanent_marker.png",
       "unit": "Pcs"
     },
@@ -9777,7 +9297,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/duster.png",
       "unit": "Pcs"
     },
@@ -9796,7 +9315,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/whitener.png",
       "unit": "Pcs"
     },
@@ -9815,7 +9333,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/button_folder.png",
       "unit": "Pkt"
     },
@@ -9834,7 +9351,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/spring_file.png",
       "unit": "Pkt"
     },
@@ -9853,7 +9369,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/display_folder.png",
       "unit": "Pkt"
     },
@@ -9872,7 +9387,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/exam_pad.png",
       "unit": "Pkt"
     },
@@ -9892,7 +9406,6 @@
         "Gift & Toy Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/pencil_box.png",
       "unit": "Pcs"
     },
@@ -9912,7 +9425,6 @@
         "Kirana Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/calculator.png",
       "unit": "Pkt"
     },
@@ -9931,7 +9443,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/punch_machine.png",
       "unit": "Pcs"
     },
@@ -9952,7 +9463,6 @@
         "Kirana Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/envelopes.png",
       "unit": "Pcs"
     },
@@ -9972,7 +9482,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/cloth_envelope.png",
       "unit": "Pkt"
     },
@@ -9991,7 +9500,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/carbon_paper.png",
       "unit": "Pcs"
     },
@@ -10010,7 +9518,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/stamp_ink.png",
       "unit": "Pkt"
     },
@@ -10029,7 +9536,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/stamp_pad.png",
       "unit": "Pkt"
     },
@@ -10050,7 +9556,6 @@
         "Gift & Toy Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/craft_paper.png",
       "unit": "Pcs"
     },
@@ -10070,7 +9575,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/brown_cover.png",
       "unit": "Pcs"
     },
@@ -10090,7 +9594,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/name_slips.png",
       "unit": "Pkt"
     },
@@ -10110,7 +9613,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/chart_paper.png",
       "unit": "Pcs"
     },
@@ -10130,7 +9632,6 @@
         "Gift & Toy Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/glitter_sheet.png",
       "unit": "Pkt"
     },
@@ -10151,7 +9652,6 @@
         "Kirana Shop"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/notepad.png",
       "unit": "Pcs"
     },
@@ -10171,7 +9671,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/id_card_holder.png",
       "unit": "Pcs"
     },
@@ -10190,7 +9689,6 @@
         "Stationery & Book Store"
       ],
       "pincode": "All Pincodes",
-      "isPromoted": false,
       "image": "https://cdn.jsdelivr.net/gh/assets/catalog/paper_weight.png",
       "unit": "Pcs"
     }
